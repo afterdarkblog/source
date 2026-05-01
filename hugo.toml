@@ -1,0 +1,4 @@
+baseURL = 'https://afterdarkblog.github.io/'
+languageCode = 'de'
+title = 'After Dark'
+theme = 'PaperMod'
