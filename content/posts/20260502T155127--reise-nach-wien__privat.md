@@ -3,7 +3,7 @@ title = "Reise nach Wien"
 author = ["Matthias Fuchs"]
 description = "Mit Gabriel in Wien, Besuch bei Meli und Otto."
 date = 2026-05-02T15:51:00+02:00
-lastmod = 2026-05-02T15:59:54+02:00
+lastmod = 2026-05-02T16:34:25+02:00
 tags = ["privat"]
 categories = ["privat"]
 draft = false
@@ -16,7 +16,7 @@ Am Donnerstag Abend ging es um 18h52 mit der Westbahn nach Wien. Ankunft um 21h2
 
 ## Hotel {#hotel}
 
-Hilton Waterfront am Handelskai, direkt am Ufer der Donau. Wunderschönes Hotel, fairer Preis.
+Hilton Waterfront am Handelskai, direkt am Ufer der Donau. Wunderschönes Hotel, fairer Preis. Super großes Zimmer, dieses Mal leider mit Blick auf Straße. Heute morgen Frühstück auf der Terrasse, am Ufer der Donau.
 
 
 ## Wallfahrt zu sieben Kirchen {#wallfahrt-zu-sieben-kirchen}
