@@ -3,7 +3,7 @@ title = "Reise nach Wien"
 author = ["Matthias Fuchs"]
 description = "Mit Gabriel in Wien, Besuch bei Meli und Otto."
 date = 2026-05-02T15:51:00+02:00
-lastmod = 2026-05-02T16:34:25+02:00
+lastmod = 2026-05-04T09:40:31+02:00
 tags = ["privat"]
 categories = ["privat"]
 draft = false
@@ -11,7 +11,7 @@ draft = false
 
 ## Hinreise {#hinreise}
 
-Am Donnerstag Abend ging es um 18h52 mit der Westbahn nach Wien. Ankunft um 21h22 am Westbahnhof. Traumhaftes Wetter während des gesamten Aufenthaltes.
+Am Donnerstag Abend ging es um 18h52 mit der Westbahn nach Wien. Ankunft um 21h22 am Westbahnhof. Traumhaftes Wetter während des gesamten Aufenthaltes. Hier schreibe ich weiter und werde alle `Hugo` Befehle hier in Emacs eingeben.
 
 
 ## Hotel {#hotel}
