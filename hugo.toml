@@ -2,7 +2,7 @@ baseURL = 'https://afterdarkblog.github.io/'
 languageCode = 'de'
 title = 'After Dark'
 theme = 'archie'
-copyright = "Copyright (c) Matthias Fuchs. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/legalcode) - for all the articles and mutlimedia. Code blogs are licensed under [GNU General Public License Version 3 or later](https://www.gnu.org/licenses/gpl-3.0.html)." # Optional, remove to suppress copyright notices
+copyright = "(c) Copyright Matthias Fuchs. This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International - for all the articles and mutlimedia. Code blogs are licensed under GNU General Public License Version 3 or later." # Optional, remove to suppress copyright notices
 
 # Code Highlight
 pygmentsstyle = "monokai"
