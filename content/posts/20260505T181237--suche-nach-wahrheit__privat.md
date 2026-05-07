@@ -3,7 +3,7 @@ title = "Suche nach Wahrheit"
 author = ["Matthias Fuchs"]
 description = "Über das Gute, Wahre und Schöne."
 date = 2026-05-05T18:12:00+02:00
-lastmod = 2026-05-07T14:09:56+02:00
+lastmod = 2026-05-07T21:09:13+02:00
 tags = ["privat"]
 categories = ["philosophy"]
 draft = false
@@ -21,4 +21,24 @@ Hilft schimpfen? Wohl kaum, oder? Und trotzdem sollen Grenzen gesetzt werden. Od
 
 ## Das Gute, Wahre und Schöne {#das-gute-wahre-und-schöne}
 
-Mit etwas Text. Den ich ergänze und nachher probiere ich magit aus.
+
+### Wie bete ich? {#wie-bete-ich}
+
+Ich muss mein Gebetsleben besser organisieren. Vor Kurzem habe ich gesehen, dass es v.a. um Treue und Regelmäßigkeit geht. Dies bedeutet, dass ich z.B. jeden Tag um genau 6h00 Uhr bete. **Was** ich bete, ist zweitrangig - Vaterunser, Ave Maria, die Bibel lesen, den Rosenkranz beten, um den Hl. Geist bitten, den Barmherzigkeitsrosenkranz beten, Benedictus, Magnifikat, Psalmen, ... es gibt so vieles.
+
+Für das Gebet in der Früh fällt mir ein (ev. eine kleine Änderung: sofort nach dem Aufstehen):
+
+-   Gebet um den Hl. Geist,
+-   Bibel,
+-   Vaterunser,
+-   Ave Maria.
+
+Am Nachmittag:
+
+-   BIble in a year Podcast
+
+Am Abend:
+
+-   Barmherzigkeitsrosenkranz
+
+Es gibt natürlich auch das Stundengebet der Kirche.
