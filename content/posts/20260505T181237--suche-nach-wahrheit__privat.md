@@ -3,7 +3,7 @@ title = "Suche nach Wahrheit"
 author = ["Matthias Fuchs"]
 description = "Über das Gute, Wahre und Schöne."
 date = 2026-05-05T18:12:00+02:00
-lastmod = 2026-05-07T14:00:54+02:00
+lastmod = 2026-05-07T14:09:56+02:00
 tags = ["privat"]
 categories = ["philosophy"]
 draft = false
@@ -21,4 +21,4 @@ Hilft schimpfen? Wohl kaum, oder? Und trotzdem sollen Grenzen gesetzt werden. Od
 
 ## Das Gute, Wahre und Schöne {#das-gute-wahre-und-schöne}
 
-Mit etwas Text.
+Mit etwas Text. Den ich ergänze und nachher probiere ich magit aus.
