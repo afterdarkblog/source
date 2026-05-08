@@ -3,7 +3,7 @@ title = "Suche nach Wahrheit"
 author = ["Matthias Fuchs"]
 description = "Über das Gute, Wahre und Schöne."
 date = 2026-05-05T18:12:00+02:00
-lastmod = 2026-05-07T21:09:13+02:00
+lastmod = 2026-05-08T23:46:08+02:00
 tags = ["privat"]
 categories = ["philosophy"]
 draft = false
@@ -42,3 +42,26 @@ Am Abend:
 -   Barmherzigkeitsrosenkranz
 
 Es gibt natürlich auch das Stundengebet der Kirche.
+
+
+## Aktuelles {#aktuelles}
+
+
+### Hantavirus {#hantavirus}
+
+Scheinbar wird hier langsam wieder eine Panik geschürt. Seit Corona kennen wir aber das Muster. Ich habe mir gerade ein Video von Prof. Dr. Martin Haditsch angeschaut. Die Übertragungsrate, etc sind bei diesem Virus so gering, dass es keinen Grund zur Panik gibt.
+
+Es gilt - so wie bei Corona - aufmerksam und kritisch zu sein. Die Herrschaft der Technokraten ist da eine viel ernstere Bedrohung. Dagegen müssen wir entschieden auftreten, sie ablehnen und alles tun, um diese zu verhindern. Ich hoffe, dass Jesus vorher zurückkommt.
+
+
+## Emacs, Hugo, Linux, ... {#emacs-hugo-linux-dot-dot-dot}
+
+
+### Wie verändere ich die Schriftart in Hugo? {#wie-verändere-ich-die-schriftart-in-hugo}
+
+Danach habe ich schon öfters gesucht, jedoch ... Allein schon hier in Emacs kommt mir diese Schriftgröße (13) zu klein vor. Mit Schriftgröße 16 wird es viel besser.
+
+
+### Letztes Update auf Plasma 6.6 {#letztes-update-auf-plasma-6-dot-6}
+
+Wow - KDE Plasma ist durch das letzte Update so schön. Das Wallpaper ist cool.
