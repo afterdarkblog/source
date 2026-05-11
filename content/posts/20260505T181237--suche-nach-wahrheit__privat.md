@@ -3,7 +3,7 @@ title = "Suche nach Wahrheit"
 author = ["Matthias Fuchs"]
 description = "Über das Gute, Wahre und Schöne."
 date = 2026-05-05T18:12:00+02:00
-lastmod = 2026-05-08T23:46:08+02:00
+lastmod = 2026-05-11T23:14:19+02:00
 tags = ["privat"]
 categories = ["philosophy"]
 draft = false
@@ -51,7 +51,17 @@ Es gibt natürlich auch das Stundengebet der Kirche.
 
 Scheinbar wird hier langsam wieder eine Panik geschürt. Seit Corona kennen wir aber das Muster. Ich habe mir gerade ein Video von Prof. Dr. Martin Haditsch angeschaut. Die Übertragungsrate, etc sind bei diesem Virus so gering, dass es keinen Grund zur Panik gibt.
 
-Es gilt - so wie bei Corona - aufmerksam und kritisch zu sein. Die Herrschaft der Technokraten ist da eine viel ernstere Bedrohung. Dagegen müssen wir entschieden auftreten, sie ablehnen und alles tun, um diese zu verhindern. Ich hoffe, dass Jesus vorher zurückkommt.
+Hier ein Link zum Video von Prof. Dr. Martin Haditsch: <https://www.youtube.com/watch?v=T4TR8VybO38>
+
+Des Weiteren habe ich zwei Links gefunden - nach dem ersten Artikel wusste man schon 2021, dass die nächste Pandemie mit dem Hantavirus kommen wird. Link: <https://www.gavi.org/vaccineswork/next-pandemic/hantavirus>
+
+Durch den zweiten Artikel wissen wir nun, dass Moderna mit einer koreanischen Universität einen mRNA Impfstoff gegen den Hantavirus entwickelt hat. Link: <https://outbreaknewstoday.substack.com/p/korea-university-and-moderna-collaborate>
+
+Qui bono - wem nützt eine Pandemie? Wie passend, wenn eine Firma wie Moderna schon den Impfstoff parat hat.
+
+Ab heute ist der Hantavirus ganz oben in den Headlines beim ORF - und wird dort lange bleiben. Langsam aber sicher wird ein Bedrohungsszenario aufgebaut, mit Halbwahrheiten, Faktenchecks, ... also dem ganzen Programm wie während der sogenannten Corona-Pandemie. Es wird genauso wie damals ablaufen - ganz bestimmt kommen wieder Lockdowns, "Pandemie der Ungeimpften", Zwangsimpfung, Schulschließnugen, etc. Die Wunden aus der Coronazeit sind noch gar nicht verheilt, der Gedanke daran könnte Angst und Panik auslösen.  Was durchaus erwünscht ist. In Panik hört der Mensch zu denken auf, lässt sich leichter lenken und manipulieren.
+
+Meine Entscheidung - die Nachrichten darüber einfach so wenig wie möglich lesen. Kritische Medien konsumieren. Sachliche Informationen wie jene von Prof. Haditsch dienen sehr der Beruhigung. Danke, dass es solche Experten wie Herrn Haditsch gibt.
 
 
 ## Emacs, Hugo, Linux, ... {#emacs-hugo-linux-dot-dot-dot}

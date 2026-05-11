@@ -21,6 +21,7 @@ disqusShortname = "yourDisqusShortname"
 	mathjax = false # enable MathJax support
 	katex = false # enable KaTeX support
 
+
 [markup.goldmark.renderer]
 unsafe = true
 
