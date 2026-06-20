@@ -3,7 +3,7 @@ title = "Suche nach Wahrheit"
 author = ["Matthias Fuchs"]
 description = "Über das Gute, Wahre und Schöne."
 date = 2026-05-05T18:12:00+02:00
-lastmod = 2026-06-20T19:05:34+02:00
+lastmod = 2026-06-20T12:19:49+02:00
 tags = ["privat"]
 categories = ["philosophy"]
 draft = false
@@ -11,7 +11,7 @@ draft = false
 
 ## Die Kunst der Erziehung {#die-kunst-der-erziehung}
 
-Wie erzieht man seine Kinder? Es soll ja auch Menschen geben, die meinen, Kinder müsse man gar nicht erziehen. Die Frage bleibt wohl, was man unter Erziehung versteht. Geht es z.B. um Gehorsam, oder sollen Kinder Disziplin lernen, um dann selbständig werden zu können? Im ersten Fall führt die Erziehung durch Gehorsam oft zu Frustration, Eltern werden bei Ungehorsam lauter. Das Kind lernt dadurch: ich warte, bis die Eltern schreien und tu erst dann, was man von ihm will. Lernt das Kind Disziplin, handelt es von innen heraus. (<a href="#citeproc_bib_item_1">Bamm, 1968</a>)
+Wie erzieht man seine Kinder? Es soll ja auch Menschen geben, die meinen, Kinder müsse man gar nicht erziehen. Die Frage bleibt wohl, was man unter Erziehung versteht. Geht es z.B. um Gehorsam, oder sollen Kinder Disziplin lernen, um dann selbständig werden zu können? Im ersten Fall führt die Erziehung durch Gehorsam oft zu Frustration, Eltern werden bei Ungehorsam lauter. Das Kind lernt dadurch: ich warte, bis die Eltern schreien und tu erst dann, was man von ihm will. Lernt das Kind Disziplin, handelt es von innen heraus. (Bamm, Peter, 1968)
 
 
 ### Wie reagieren bei ... {#wie-reagieren-bei-dot-dot-dot}
@@ -76,10 +76,11 @@ Danach habe ich schon öfters gesucht, jedoch ... Allein schon hier in Emacs kom
 
 Wow - KDE Plasma ist durch das letzte Update so schön. Das Wallpaper ist cool.
 
+
+## Literatur {#literatur}
+
 ## References
 
-<div class="csl-bib-body">
-  <div class="csl-entry"><a id="citeproc_bib_item_1"></a>Bamm, P. (1968): <i>Werke</i>. Deutsche Buch-Gemeinschaft. <a href="https://doi.org/10.1515/9783110217933.579">https://doi.org/10.1515/9783110217933.579</a></div>
-</div>
+Bamm, Peter (1968). _Werke_, Deutsche Buch-Gemeinschaft.
 
 [^fn:1]: Test Fußnote
