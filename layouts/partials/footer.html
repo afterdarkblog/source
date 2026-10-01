@@ -4,7 +4,13 @@
     {{- if hasPrefix $key.icon "simple:" -}}
     <a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}"><i class="si si-{{ substr $key.icon 7 }}"></i></a>
     {{- else -}}
-    <a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}">{{ template "feathericon" (dict "Icon" $key.icon "UseCDN" .Site.Params.useCDN) }}</a>
+    <a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}">
+      {{- if site.Data.svg -}}
+        {{- safeHTML (index site.Data.svg $key.icon) -}}
+      {{- else -}}
+        {{- partial "helper/icon.html" (dict "name" $key.icon) -}}
+      {{- end -}}
+    </a>
     {{- end -}}
     <a class="border"></a>
     {{- end -}}

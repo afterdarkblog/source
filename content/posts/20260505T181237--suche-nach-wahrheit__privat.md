@@ -3,7 +3,7 @@ title = "Suche nach Wahrheit"
 author = ["Matthias Fuchs"]
 description = "Über das Gute, Wahre und Schöne."
 date = 2026-05-05T18:12:00+02:00
-lastmod = 2026-06-20T19:05:34+02:00
+lastmod = 2026-06-21T12:01:28+02:00
 tags = ["privat"]
 categories = ["philosophy"]
 draft = false
@@ -79,7 +79,7 @@ Wow - KDE Plasma ist durch das letzte Update so schön. Das Wallpaper ist cool.
 ## References
 
 <div class="csl-bib-body">
-  <div class="csl-entry"><a id="citeproc_bib_item_1"></a>Bamm, P. (1968): <i>Werke</i>. Deutsche Buch-Gemeinschaft. <a href="https://doi.org/10.1515/9783110217933.579">https://doi.org/10.1515/9783110217933.579</a></div>
+  <div class="csl-entry"><a id="citeproc_bib_item_1"></a>Bamm, P. (1968): <i>Werke</i>. Berlin: Deutsche Buch-Gemeinschaft. <a href="https://doi.org/10.1515/9783110217933.579">https://doi.org/10.1515/9783110217933.579</a></div>
 </div>
 
 [^fn:1]: Test Fußnote

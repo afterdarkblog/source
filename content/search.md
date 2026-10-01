@@ -1,7 +1,6 @@
 ---
-title: "Search"
+title: "Suche"
 layout: "search"
-outputs:
-  - html
-  - json
+placeholder: "Artikel durchsuchen..."
+summary: "search"
 ---
