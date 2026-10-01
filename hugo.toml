@@ -2,7 +2,7 @@ baseURL = 'https://afterdarkblog.github.io/'
 locale = 'de'
 title = 'After Dark'
 theme = 'PaperModX'
-copyright = "(c) Copyright Matthias Fuchs. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org) - for all the articles and mutlimedia. Code blogs are licensed under [GNU General Public License Version 3 or later](https://gnu.org)."
+# Hier definieren wir nun das komplett eigene, zentrierte Copyright inklusive Jahr am richtigen Platz:
 
 # Code Highlight
 pygmentsstyle = "monokai"
@@ -33,6 +33,8 @@ disqusShortname = "yourDisqusShortname"
 	katex = false
 	custom_css = ["css/custom.css"]
 	showSocialButtons = true
+  # Dies deaktiviert das automatische Standard-Copyright des Themes
+  hideCopyright = true
 
 # --- HIER DEN PROFILE MODE EINFÜGEN ---
 [params.profileMode]
@@ -53,8 +55,10 @@ disqusShortname = "yourDisqusShortname"
     name = "Über mich"
     url = "/about/"
 
-[markup.goldmark.renderer]
-unsafe = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 # Social Icons (Umgestellt auf PaperModX Syntax)
 [[params.socialIcons]]

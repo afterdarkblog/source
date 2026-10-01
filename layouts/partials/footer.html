@@ -1,5 +1,5 @@
 <footer>
-  <div style="display:flex">
+  <div style="display:flex; justify-content:center;">
     {{- range $index, $key := .Site.Params.Social -}}
     {{- if hasPrefix $key.icon "simple:" -}}
     <a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}"><i class="si si-{{ substr $key.icon 7 }}"></i></a>
@@ -15,11 +15,25 @@
     <a class="border"></a>
     {{- end -}}
   </div>
-  <div class="footer-info">
-    {{ dateFormat "2006" now }} {{ with .Site.Copyright | markdownify}} {{ . }} | {{ end }} <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+
+  <!-- Dieser Block wurde nach oben gezogen (-2.5rem), zentriert und das Jahr richtig platziert -->
+  <div class="footer-info" style="text-align: center; margin-top: -2.5rem; line-height: 1.6; float: none; display: block;">
+    <div style="max-width: 750px; margin: 0 auto 1rem auto; font-size: 0.95em;">
+      &copy; {{ dateFormat "2006" now }} Copyright Matthias Fuchs. This work is licensed under a
+      <a href="https://creativecommons.org" style="color: var(--primary, #007acc); text-decoration: underline; font-weight: 500;">Creative Commons Attribution-ShareAlike 4.0 International</a>
+      - for all the articles and multimedia. Code blogs are licensed under
+      <a href="https://gnu.org" style="color: var(--primary, #007acc); text-decoration: underline; font-weight: 500;">GNU General Public License Version 3 or later</a>.
+    </div>
+
+    <div style="font-size: 0.8em; opacity: 0.6;">
+      <a href="https://github.com/reorx/hugo-PaperModX">PaperModX Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+    </div>
   </div>
 </footer>
+{{ if not hugo.IsServer }}
+{{ template "_internal/google_analytics.html" . }}
+{{ end }}
+
 {{ if not hugo.IsServer }}
 {{ template "_internal/google_analytics.html" . }}
 {{ end }}
