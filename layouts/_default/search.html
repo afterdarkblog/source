@@ -1,0 +1,31 @@
+{{ define "main" }}
+<header class="page-header">
+    <h1>{{ .Title }}</h1>
+</header>
+
+<!-- Pagefind Suchmaske -->
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/pagefind/pagefind-ui.js"></script>
+
+<div id="search"></div>
+
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({
+            element: "#search",
+            showSubResults: true,
+            translations: {
+                placeholder: "Artikel durchsuchen...",
+                clear_search: "Löschen",
+                load_more: "Mehr Ergebnisse laden",
+                search_label: "Suche",
+                filters_label: "Filter",
+                zero_results: "Keine Ergebnisse für [SEARCH_TERM] gefunden",
+                many_results: "[COUNT] Ergebnisse für [SEARCH_TERM] gefunden",
+                one_result: "[COUNT] Ergebnis für [SEARCH_TERM] gefunden",
+                alt_search: "Keine Ergebnisse für [SEARCH_TERM] gefunden. Zeige Ergebnisse für [ALT_TERM]"
+            }
+        });
+    });
+</script>
+{{ end }}

@@ -1,5 +1,5 @@
 baseURL = 'https://afterdarkblog.github.io/'
-languageCode = 'de'
+locale = 'de'
 title = 'After Dark'
 theme = 'PaperModX'
 copyright = "(c) Copyright Matthias Fuchs. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org) - for all the articles and mutlimedia. Code blogs are licensed under [GNU General Public License Version 3 or later](https://gnu.org)."
@@ -32,18 +32,26 @@ disqusShortname = "yourDisqusShortname"
 	mathjax = false
 	katex = false
 	custom_css = ["css/custom.css"]
-	# Zwingt die Suche, die index.json an der absoluten Basis der Domain abzurufen:
-  searchJsonUrl = "/index.json"
+	showSocialButtons = true
 
-# Suchkonfiguration für Fuse.js (Behebt den Suchfehler)
-[params.fuseOpts]
-  isCaseSensitive = false
-  shouldSort = true
-  location = 0
-  distance = 1000
-  threshold = 0.4
-  minMatchCharLength = 0
-  keys = ["title", "permalink", "summary", "content"]
+# --- HIER DEN PROFILE MODE EINFÜGEN ---
+[params.profileMode]
+  enabled = true
+  title = "After Dark"
+  subtitle = "Über das Gute, Wahre und Schöne. Willkommen auf meinem Blog."
+  imageUrl = "images/avatar.png" # Optional: Pfad zu Ihrem Profilbild (in static/images/)
+  imageWidth = 120               # Breite des Bildes
+  imageHeight = 120              # Höhe des Bildes
+  imageTitle = "Matthias Fuchs"
+
+  # Hier können Sie Buttons hinzufügen, die unter dem Text erscheinen
+  [[params.profileMode.buttons]]
+    name = "Zum Blog"
+    url = "/posts/"
+
+  [[params.profileMode.buttons]]
+    name = "Über mich"
+    url = "/about/"
 
 [markup.goldmark.renderer]
 unsafe = true
