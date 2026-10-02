@@ -14,7 +14,7 @@ hugo --minify
 echo "Erstelle Suchindex mit Pagefind..."
 npx pagefind --site public
 
-# Kurze Pause (1 Sekunde), damit das Dateisystem alle Schreibvorgänge abschließen kann
+# Kurze Pause für das Dateisystem
 sleep 1
 
 # 3. Commit-Nachricht abfragen
@@ -35,9 +35,8 @@ cd ..
 
 # 5. IM HAUPTVERZEICHNIS: Den neuen Submodul-Zeiger und Quellcode sichern
 echo "Sichere Quellcode im Hauptverzeichnis..."
-# Erst das Submodul im Hauptindex aktualisieren
-git add public
-# Dann den Rest des Hauptprojekts sichern
+# --ignore-submodules=none zwingt Git, das public-Submodul trotz eventueller Config-Einträge sauber mitzunehmen
+git add --ignore-submodules=none public
 git add -A .
 git commit -m "$commit_message"
 git push origin main
