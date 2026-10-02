@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Sicherheit: Sicherstellen, dass das Skript im Hauptverzeichnis ausgeführt wird
+if [ ! -d "public" ]; then
+    echo "Fehler: Bitte führen Sie dieses Skript aus dem Hauptverzeichnis des Projekts aus!"
+    exit 1
+fi
+
 # 1. HTML-Seiten lokal generieren
 echo "Generiere HTML mit Hugo..."
 hugo --minify
@@ -19,15 +25,16 @@ fi
 # 4. IM SUBMODUL (public): Die fertige Website zu GitHub Pages pushen
 echo "Pushe fertige Website aus dem public-Ordner..."
 cd public
-git add .
+git add -A .
 git commit -m "$commit_message"
-git push origin main  # Falls Ihr public-Branch anders heißt, z.B. gh-pages, hier anpassen
+git push origin main
 cd ..
 
 # 5. IM HAUPTVERZEICHNIS: Den neuen Submodul-Zeiger und Quellcode sichern
 echo "Sichere Quellcode im Hauptverzeichnis..."
-git add .
+# -A erfasst geänderte, neue UND gelöschte Dateien (wie alte Caches) zuverlässig
+git add -A .
 git commit -m "$commit_message"
 git push origin main
 
-echo "Fertig! Ihr Blog inklusive Suche ist im Submodul-Modus live."
+echo "Fertig! Ihr Blog inklusive Suche ist im Submodul-Modus live und Ihr Terminal bleibt grün!"
