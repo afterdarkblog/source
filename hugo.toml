@@ -11,22 +11,9 @@ pygmentscodefencesguesssyntax = true
 
 disqusShortname = "yourDisqusShortname"
 
-[outputFormats]
-  [outputFormats.JSON]
-    baseName = "index"
-    isPlainText = true
-    mediaType = "application/json"
-
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
-  page = ["HTML"]
-  section = ["HTML"]
-
-[pagination]
-  pagerSize = 3
-
 [params]
 	defaultTheme = "auto" # "light", "dark", oder "auto" (PaperModX Standard)
+	disableThemeToggle = false
 	useCDN = false
 	subtitle = "Mein neues PaperModX Blog"
 	mathjax = false
@@ -35,6 +22,9 @@ disqusShortname = "yourDisqusShortname"
 	showSocialButtons = true
   # Dies deaktiviert das automatische Standard-Copyright des Themes
   hideCopyright = true
+
+[params.assets]
+  disableFingerprinting = true
 
 # --- HIER DEN PROFILE MODE EINFÜGEN ---
 [params.profileMode]
@@ -54,6 +44,20 @@ disqusShortname = "yourDisqusShortname"
   [[params.profileMode.buttons]]
     name = "Über mich"
     url = "/about/"
+
+[outputFormats]
+  [outputFormats.JSON]
+    baseName = "index"
+    isPlainText = true
+    mediaType = "application/json"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML"]
+
+[pagination]
+  pagerSize = 3
 
 [markup]
   [markup.goldmark]
