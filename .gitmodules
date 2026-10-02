@@ -5,6 +5,7 @@
 	path = public
 	url = https://github.com/afterdarkblog/afterdarkblog.github.io.git
 	branch = main
+	ignore = all
 [submodule "themes/archie"]
 	path = themes/archie
 	url = https://github.com/athul/archie.git

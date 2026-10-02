@@ -1,0 +1,6 @@
+# HTML-Dateien als Binärdaten behandeln (verhindert den Pandoc-Text-Scan)
+*.html -diff -text
+
+# Optional: Auch generierte CSS/JS-Dateien vom Text-Scan ausschließen
+*.css -diff -text
+*.js -diff -text
