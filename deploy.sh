@@ -35,8 +35,8 @@ cd ..
 
 # 5. IM HAUPTVERZEICHNIS: Den neuen Submodul-Zeiger und Quellcode sichern
 echo "Sichere Quellcode im Hauptverzeichnis..."
-# --ignore-submodules=none zwingt Git, das public-Submodul trotz eventueller Config-Einträge sauber mitzunehmen
-git add --ignore-submodules=none public
+# -f (force) zwingt Git dazu, das ignorierte public-Submodul im Hauptindex zu aktualisieren
+git add -f public
 git add -A .
 git commit -m "$commit_message"
 git push origin main
