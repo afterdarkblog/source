@@ -1,5 +1,6 @@
 baseURL = 'https://afterdarkblog.github.io/'
 locale = 'de'
+defaultContentLanguage = 'de'
 title = 'After Dark'
 theme = 'PaperModX'
 # Hier definieren wir nun das komplett eigene, zentrierte Copyright inklusive Jahr am richtigen Platz:

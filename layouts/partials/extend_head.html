@@ -1,0 +1,7 @@
+{{ if eq .Layout "search" }}
+<script>
+    document.documentElement.setAttribute("lang", "{{ .Params.language | default site.Language.Lang }}");
+    document.documentElement.setAttribute("dir", "{{ site.Language.Direction | default "auto" }}");
+</script>
+{{ end }}
+
