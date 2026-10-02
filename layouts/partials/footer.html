@@ -25,3 +25,30 @@
 {{ if not hugo.IsServer }}
     {{ template "_internal/google_analytics.html" . }}
 {{ end }}
+
+<script>
+    // Globaler Klick-Lauscher am Ende der Seite
+    document.addEventListener("click", function(e) {
+        // Sucht nach Klicks auf das Mond- oder Sonnensymbol
+        const target = e.target.closest("#moon, #sun");
+
+        if (target) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            // Schaltet die Klasse um, die du eben erfolgreich in der Konsole getestet hast
+            if (document.body.classList.contains("dark")) {
+                document.body.classList.remove('dark');
+                localStorage.setItem("pref-theme", 'light');
+            } else {
+                document.body.classList.add('dark');
+                localStorage.setItem("pref-theme", 'dark');
+            }
+        }
+    }, true);
+
+    // Macht den Mauszeiger für die Symbole dauerhaft zur Hand
+    const themeStyle = document.createElement('style');
+    themeStyle.innerHTML = '#moon, #sun { cursor: pointer !important; pointer-events: auto !important; }';
+    document.head.appendChild(themeStyle);
+</script>
