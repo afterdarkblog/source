@@ -7,9 +7,11 @@ lastmod = 2025-03-11T09:23:37+01:00
 tags = ["hugo"]
 categories = ["Schule"]
 draft = false
+# FÜGE DIESE ZEILE IM TOML-FORMAT HINZU:
+showReadingTime = true
 +++
 
-![Löwe](/purple-gnu.jpg)
+![Löwe](images/purple-gnu.jpg)
 
 ## MMS Abtenau {#mms-abtenau}
 

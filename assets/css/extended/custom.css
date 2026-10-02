@@ -1,0 +1,80 @@
+/* --- INTELLIGENTES LAYOUT FÜR DIE STARTSEITE (PROFILE MODE) --- */
+
+/* Zwingt die gesamte Seite, sich dynamisch nach dem Inhalt zu strecken */
+body.list {
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 100vh !important;
+    height: auto !important;
+}
+
+/* Lässt das Profilbild perfekt in der Mitte, gibt aber nach unten hin nach */
+.profile {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-grow: 1 !important; /* Nutzt den verfügbaren Platz aus */
+    min-height: calc(100vh - 220px) !important; /* Reserviert Platz für den Footer */
+    padding: 20px 0 0 0 !important;
+}
+
+/* Setzt das Profilbild stabil auf die Standardposition */
+.profile_inner {
+    margin-top: 0 !important;
+}
+
+/* Schiebt den Footer auf der Startseite ganz natürlich unter das Profil */
+body.list .footer {
+    margin-top: auto !important;
+    padding: 20px 0 30px 0 !important;
+    position: relative !important;
+    clear: both !important;
+}
+
+/* --- REINES TEXT-STYLING (FÜR POSTS & STARTSEITE) --- */
+
+.custom-copyright {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center !important;
+    font-size: 13.5px;
+    line-height: 1.5;
+}
+
+.custom-copyright p {
+    margin: 4px 0 !important;
+    text-align: center !important;
+    display: block !important;
+    color: var(--content);
+}
+
+.custom-copyright a {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+.custom-copyright a:hover {
+    opacity: 0.8;
+}
+
+.theme-info {
+    color: var(--secondary);
+    font-size: 12px;
+    margin-top: 6px !important;
+    text-align: center !important;
+    display: block !important;
+}
+
+/* Sorgt für eine saubere Trennlinie auf allen Seiten */
+.footer hr, .post-content hr {
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+    clear: both;
+    position: relative;
+    width: 100%;
+    max-width: var(--main-width);
+    margin-left: auto !important;
+    margin-right: auto !important;
+}

@@ -23,6 +23,16 @@ disqusShortname = "yourDisqusShortname"
 	showSocialButtons = true
   # Dies deaktiviert das automatische Standard-Copyright des Themes
   hideCopyright = true
+  # Wir definieren beide Schreibweisen direkt unter [params],
+  # damit das Theme den Wert garantiert findet:
+  ShowReadingTime = true
+  showReadingTime = true
+
+[params.page]
+  # Wir definieren beide Schreibweisen direkt unter [params],
+  # damit das Theme den Wert garantiert findet:
+  ShowReadingTime = true
+  showReadingTime = true
 
 [params.assets]
   disableFingerprinting = true

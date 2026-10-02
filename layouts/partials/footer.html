@@ -1,51 +1,27 @@
 <footer>
-  <div style="display:flex; justify-content:center;">
     {{- range $index, $key := .Site.Params.Social -}}
-    {{- if hasPrefix $key.icon "simple:" -}}
-    <a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}"><i class="si si-{{ substr $key.icon 7 }}"></i></a>
-    {{- else -}}
-    <a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}">
-      {{- if hugo.Data.svg -}}
-  {{- safeHTML (index hugo.Data.svg $key.icon) -}}
-      {{- else -}}
-        {{- partial "helper/icon.html" (dict "name" $key.icon) -}}
-      {{- end -}}
-    </a>
+        {{- if not (hasPrefix $key.icon "simple:") -}}
+            {{- if hugo.Data.svg -}}
+                {{- safeHTML (index hugo.Data.svg $key.icon) -}}
+            {{- else -}}
+                {{- partial "helper/icon.html" (dict "name" $key.icon) -}}
+            {{- end -}}
+        {{- end -}}
     {{- end -}}
-    <a class="border"></a>
-    {{- end -}}
-  </div>
 
-  <!-- Dieser Block wurde nach oben gezogen (-2.5rem), zentriert und das Jahr richtig platziert -->
-  <div class="footer-info" style="text-align: center; margin-top: -4.0rem; line-height: 1.6; float: none; display: block;">
-    <div style="max-width: 750px; margin: 0 auto 1rem auto; font-size: 0.95em;">
-      &copy; {{ dateFormat "2006" now }} Copyright Matthias Fuchs. This work is licensed under a
-      <a href="https://creativecommons.org" style="color: var(--primary, #007acc); text-decoration: underline; font-weight: 500;">Creative Commons Attribution-ShareAlike 4.0 International</a>
-      - for all the articles and multimedia. Code blogs are licensed under
-      <a href="https://gnu.org" style="color: var(--primary, #007acc); text-decoration: underline; font-weight: 500;">GNU General Public License Version 3 or later</a>.
+    <div class="custom-copyright">
+        <p>
+            © {{ dateFormat "2006" now }} Matthias Fuchs.
+            Articles & Multimedia: <a href="https://creativecommons.org" target="_blank" rel="noopener">CC BY-SA 4.0</a>.
+            Code blogs: <a href="https://gnu.org" target="_blank" rel="noopener">GNU GPL v3+</a>.
+        </p>
     </div>
 
-    <div style="font-size: 0.8em; opacity: 0.6;">
-      <a href="https://github.com/reorx/hugo-PaperModX">PaperModX Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+    <div class="theme-info">
+        PaperModX Theme | Built with Hugo
     </div>
-  </div>
-  <!-- JavaScript für den PaperModX Theme-Toggle -->
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-</script>
 </footer>
-{{ if not hugo.IsServer }}
-{{ template "_internal/google_analytics.html" . }}
-{{ end }}
 
 {{ if not hugo.IsServer }}
-{{ template "_internal/google_analytics.html" . }}
+    {{ template "_internal/google_analytics.html" . }}
 {{ end }}
