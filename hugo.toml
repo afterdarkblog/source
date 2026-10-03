@@ -13,6 +13,8 @@ pygmentscodefencesguesssyntax = true
 disqusShortname = "yourDisqusShortname"
 
 [params]
+    # Zeigt einen "Kopieren"-Button an allen Code-Blöcken an
+    ShowCodeCopyButtons = true
 	#defaultTheme = "auto" # "light", "dark", oder "auto" (PaperModX Standard)
 	#ShowThemeToggle = true
 	disableThemeToggle = false
@@ -22,14 +24,13 @@ disqusShortname = "yourDisqusShortname"
 	katex = false
 	custom_css = ["css/custom.css"]
 	showSocialButtons = true
-  # Dies deaktiviert das automatische Standard-Copyright des Themes
-  hideCopyright = true
-  # Wir definieren beide Schreibweisen direkt unter [params],
-  # damit das Theme den Wert garantiert findet:
-  ShowReadingTime = true
-  showReadingTime = true
-  # Zeigt einen "Kopieren"-Button an allen Code-Blöcken an
-  ShowCodeCopyButtons = true
+    # Dies deaktiviert das automatische Standard-Copyright des Themes
+    hideCopyright = true
+    # Wir definieren beide Schreibweisen direkt unter [params],
+    # damit das Theme den Wert garantiert findet:
+    ShowReadingTime = true
+    showReadingTime = true
+
 
   # Erlaubt das horizontale Scrollen bei sehr langen Codezeilen
   # anstelle eines automatischen Zeilenumbruchs
