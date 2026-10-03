@@ -1,22 +1,35 @@
-/* ==========================================
-   CODE-BLOCK STYLING (Chroma / PaperModX)
-   ========================================== */
+/* ========================================================
+   DYNAMISCHES CODE-BLOCK STYLING (HELL- & DUNKELMODUS)
+   ======================================================== */
+
+/* --- 1. HELLER MODUS (Standard) --- */
+
+/* Große Code-Blöcke */
 .post-content pre {
-    background-color: #1e1e24 !important; /* Dunklerer Hintergrund */
+    background-color: #f6f8fa !important; /* Angenehmes Hellgrau (wie GitHub) */
+    border: 1px solid #e1e4e8;
     border-radius: 8px;
-    border: 1px solid #333;
 }
 
-/* Inline-Code-Schnipsel im Textfluss */
+/* Kleine Inline-Code-Schnipsel im Fließtext */
 .post-content code {
     background-color: #f5f5f5;
-    color: #e06c75;
+    color: #d11a2a; /* Gut lesbares Rot für hellen Hintergrund */
     padding: 2px 6px;
     border-radius: 4px;
 }
 
-/* Anpassung für den Dark-Mode */
+
+/* --- 2. DUNKLER MODUS (Greift automatisch, wenn der Blog auf Dark schaltet) --- */
+
+/* Große Code-Blöcke im Dark-Mode */
+.dark .post-content pre {
+    background-color: #1e1e24 !important; /* Dein gewünschtes dunkles Anthrazit */
+    border: 1px solid #333;
+}
+
+/* Kleine Inline-Code-Schnipsel im Dark-Mode */
 .dark .post-content code {
     background-color: #2c2c32;
-    color: #61afef;
+    color: #61afef; /* Angenehmes Blau für dunklen Hintergrund */
 }
