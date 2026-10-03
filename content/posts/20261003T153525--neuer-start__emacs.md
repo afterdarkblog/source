@@ -3,7 +3,7 @@ title = "Neuer Start"
 author = ["Matthias Fuchs"]
 description = "Neue Sprachen und eine neue Schule"
 date = 2026-10-03T15:35:00+02:00
-lastmod = 2026-10-03T20:12:28+02:00
+lastmod = 2026-10-03T21:57:09+02:00
 tags = ["emacs"]
 categories = ["emacs"]
 draft = false
@@ -43,7 +43,7 @@ Damit man den Codeblock kopieren kann:
   # lineNumbersInTable = true # Setze dies auf true, falls lineNos=true genutzt wird, für besseres Layout
 ```
 
-Weiters habe ich eine `custom-code.css` in `/assets/css/extended` ertellt. `PaperModX` bringt bereits perfekt optimierte Styles für Code-Blöcke mit, die sich automatisch an den Hell- oder Dunkelmodus deines Blogs anpassen. Beispiel ein dynamisches Codeblock Styling (Hell- und Dunkelmodus):
+Weiters habe ich eine `custom-code.css` in `/assets/css/extended` ertellt. `PaperModX` bringt bereits perfekt optimierte Styles für Code-Blöcke mit, die sich automatisch an den Hell- oder Dunkelmodus deines Blogs anpassen. Beispiel für ein dynamisches Codeblock Styling (Hell- und Dunkelmodus):
 
 ```css
 /* ========================================================
