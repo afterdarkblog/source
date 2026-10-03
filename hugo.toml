@@ -20,7 +20,7 @@ disqusShortname = "yourDisqusShortname"
 	subtitle = "Mein neues PaperModX Blog"
 	mathjax = false
 	katex = false
-	#custom_css = ["css/custom.css"]
+	custom_css = ["css/custom.css"]
 	showSocialButtons = true
   # Dies deaktiviert das automatische Standard-Copyright des Themes
   hideCopyright = true
