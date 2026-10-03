@@ -28,6 +28,12 @@ disqusShortname = "yourDisqusShortname"
   # damit das Theme den Wert garantiert findet:
   ShowReadingTime = true
   showReadingTime = true
+  # Zeigt einen "Kopieren"-Button an allen Code-Blöcken an
+  ShowCodeCopyButtons = true
+
+  # Erlaubt das horizontale Scrollen bei sehr langen Codezeilen
+  # anstelle eines automatischen Zeilenumbruchs
+  # lineNumbersInTable = true # Setze dies auf true, falls lineNos=true genutzt wird, für besseres Layout
 
 [params.page]
   # Wir definieren beide Schreibweisen direkt unter [params],
@@ -75,6 +81,12 @@ disqusShortname = "yourDisqusShortname"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+  [markup.highlight]
+    codeFences = true        # Aktiviert Highlighting für Blöcke mit ```
+    lineNos = false          # Schaltet globale Zeilennummern ein (true) oder aus (false)
+    noClasses = false        # WICHTIG für PaperModX: CSS-Klassen statt Inline-Styles nutzen
+    style = "monokai"        # Das Chroma-Fallback-Design (wird oft durch Theme-CSS überschrieben)
 
 # Social Icons (Umgestellt auf PaperModX Syntax)
 [[params.socialIcons]]
