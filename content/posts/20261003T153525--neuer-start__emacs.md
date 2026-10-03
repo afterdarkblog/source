@@ -3,7 +3,7 @@ title = "Neuer Start"
 author = ["Matthias Fuchs"]
 description = "Neue Sprachen und eine neue Schule"
 date = 2026-10-03T15:35:00+02:00
-lastmod = 2026-10-03T16:57:29+02:00
+lastmod = 2026-10-03T20:12:28+02:00
 tags = ["emacs"]
 categories = ["emacs"]
 draft = false
@@ -43,30 +43,43 @@ Damit man den Codeblock kopieren kann:
   # lineNumbersInTable = true # Setze dies auf true, falls lineNos=true genutzt wird, für besseres Layout
 ```
 
-Weiters habe ich eine `custom-code.css` in `/assets/css/extended` ertellt. `PaperModX` bringt bereits perfekt optimierte Styles für Code-Blöcke mit, die sich automatisch an den Hell- oder Dunkelmodus deines Blogs anpassen. Beispiel für eine andere Hintergrundfarbe im Dark-Mode:
+Weiters habe ich eine `custom-code.css` in `/assets/css/extended` ertellt. `PaperModX` bringt bereits perfekt optimierte Styles für Code-Blöcke mit, die sich automatisch an den Hell- oder Dunkelmodus deines Blogs anpassen. Beispiel ein dynamisches Codeblock Styling (Hell- und Dunkelmodus):
 
 ```css
-/* ==========================================
-   CODE-BLOCK STYLING (Chroma / PaperModX)
-   ========================================== */
+/* ========================================================
+   DYNAMISCHES CODE-BLOCK STYLING (HELL- & DUNKELMODUS)
+   ======================================================== */
+
+/* --- 1. HELLER MODUS (Standard) --- */
+
+/* Große Code-Blöcke */
 .post-content pre {
-    background-color: #1e1e24 !important; /* Dunklerer Hintergrund */
+    background-color: #f6f8fa !important; /* Angenehmes Hellgrau (wie GitHub) */
+    border: 1px solid #e1e4e8;
     border-radius: 8px;
-    border: 1px solid #333;
 }
 
-/* Inline-Code-Schnipsel im Textfluss */
+/* Kleine Inline-Code-Schnipsel im Fließtext */
 .post-content code {
     background-color: #f5f5f5;
-    color: #e06c75;
+    color: #d11a2a; /* Gut lesbares Rot für hellen Hintergrund */
     padding: 2px 6px;
     border-radius: 4px;
 }
 
-/* Anpassung für den Dark-Mode */
+
+/* --- 2. DUNKLER MODUS (Greift automatisch, wenn der Blog auf Dark schaltet) --- */
+
+/* Große Code-Blöcke im Dark-Mode */
+.dark .post-content pre {
+    background-color: #1e1e24 !important; /* Dein gewünschtes dunkles Anthrazit */
+    border: 1px solid #333;
+}
+
+/* Kleine Inline-Code-Schnipsel im Dark-Mode */
 .dark .post-content code {
     background-color: #2c2c32;
-    color: #61afef;
+    color: #61afef; /* Angenehmes Blau für dunklen Hintergrund */
 }
 ```
 
@@ -74,3 +87,8 @@ Weiters habe ich eine `custom-code.css` in `/assets/css/extended` ertellt. `Pape
 ## Neues Schuljahr - "neue" Schule {#neues-schuljahr-neue-schule}
 
 Seit diesem Schuljahr bin ich nun für eine volle Lehrverpflichtung an der MS Mattsee, eine Schule mit einem sehr guten Ruf, netten Kollegen und freundlichen Kindern. Ich hoffe, dass ich endlich ankommen kann. Meine Ruhe und meinen Frieden finde.
+
+
+## Tja - Brille kaputt {#tja-brille-kaputt}
+
+Heute ist mir beim Brillen putzen die Fassung gebrochen. Gott sei Dank hatte ein Nachbar einen Superkleber. Trauriger Nebeneffekt: ein Brillenglas ist in einer Ecke sehr zerkratzt. Somit muss ich in nächster Zeit die Brille tauschen. So ein Missgeschick kommt nie zum passenden Zeitpunkt, wir müsssen zwei größere Reparaturen finanziell stemmen, da kommt eine 500 Euro Brille sehr ungelegen. Gott sei Dank stören die Kratzer nicht, sie liegen außerhalb des Sichtfeldes. Naja, ich hab mich erkundigt, man kann sich Unterstützung über die Krankenkassa und das Finanzamt holen.
