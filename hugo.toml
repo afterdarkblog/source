@@ -5,11 +5,6 @@ title = 'After Dark'
 theme = 'PaperModX'
 # Hier definieren wir nun das komplett eigene, zentrierte Copyright inklusive Jahr am richtigen Platz:
 
-# Code Highlight
-pygmentsstyle = "monokai"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
-
 disqusShortname = "yourDisqusShortname"
 
 [params]

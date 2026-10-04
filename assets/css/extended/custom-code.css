@@ -33,3 +33,42 @@
     background-color: #2c2c32;
     color: #61afef; /* Angenehmes Blau für dunklen Hintergrund */
 }
+
+/* ========================================================
+   KORREKTUR FÜR DEN COPY-BUTTON (Sichtbarkeit erzwingen)
+   ======================================================== */
+
+/* Ermöglicht dem Copy-Button, sich am Rand des Blocks auszurichten */
+.post-content pre {
+    position: relative;
+    overflow: auto;
+}
+
+/* Positioniert den Button sauber oben rechts im Kasten */
+.post-content .copy-code {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(220, 220, 220, 0.2);
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: all 0.2s ease;
+    opacity: 0; /* Standardmäßig unsichtbar */
+    visibility: hidden;
+}
+
+/* Zeigt den Button sofort an, sobald man mit der Maus über den Block fährt */
+.post-content pre:hover .copy-code,
+.post-content .highlight:hover .copy-code {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* Kleine optische Anpassung für den Dark-Mode */
+.dark .post-content .copy-code {
+    background: rgba(0, 0, 0, 0.4);
+    color: #ccc;
+}

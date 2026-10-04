@@ -78,3 +78,53 @@ body.list .footer {
     margin-left: auto !important;
     margin-right: auto !important;
 }
+
+/* ========================================================
+   CSS-ONLY COPY-INDICATOR (REINES CSS OHNE JAVASCRIPT)
+   ======================================================== */
+
+/* Bereitet den Code-Block für die Platzierung des "Buttons" vor */
+.post-content pre {
+    position: relative !important;
+}
+
+/* Erzeugt das "Kopieren"-Feld oben rechts im Kasten */
+.post-content pre::before {
+    content: "Code"; /* Standard-Text, falls keine Sprache erkannt wird */
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 10;
+    padding: 3px 8px;
+    font-size: 11px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #888;
+    background: rgba(128, 128, 128, 0.15);
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    pointer-events: none; /* Verhindert, dass man den Text aus Versehen markiert */
+}
+
+/* ========================================================
+   KORREKTUR FÜR DIE FARBEN BEIM DRÜBERFAHREN (HOVER)
+   ======================================================== */
+
+/* 1. Standard-Hover (für den HELLEN Modus -> Blau) */
+.post-content pre:hover::before {
+    content: "Strg + C";
+    color: #fff !important;
+    background: #0066cc !important; /* Angenehmes Blau */
+    border-color: #0066cc !important;
+}
+
+/* 2. Spezieller Hover für den DUNKLEN Modus (Greift bei PaperModX über .dark body oder .dark) */
+.dark .post-content pre:hover::before,
+.dark-theme .post-content pre:hover::before {
+    content: "Strg + C";
+    color: #fff !important;
+    background: #2ea043 !important; /* Schönes GitHub-Grün */
+    border-color: #2ea043 !important;
+}
+
