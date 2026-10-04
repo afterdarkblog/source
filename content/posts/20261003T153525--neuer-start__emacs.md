@@ -3,7 +3,7 @@ title = "Neuer Start"
 author = ["Matthias Fuchs"]
 description = "Neue Sprachen und eine neue Schule"
 date = 2026-10-03T15:35:00+02:00
-lastmod = 2026-10-03T21:57:09+02:00
+lastmod = 2026-10-04T20:47:30+02:00
 tags = ["emacs"]
 categories = ["emacs"]
 draft = false
@@ -42,6 +42,68 @@ Damit man den Codeblock kopieren kann:
   # anstelle eines automatischen Zeilenumbruchs
   # lineNumbersInTable = true # Setze dies auf true, falls lineNos=true genutzt wird, für besseres Layout
 ```
+
+Das alleine hat nicht genügt. Ich musste durch vieles Ausprobieren auch einen `css` Codeblock in die Datei `custom.css` schreiben:
+
+```css
+/* ========================================================
+   CSS-ONLY COPY-INDICATOR (REINES CSS OHNE JAVASCRIPT)
+   ======================================================== */
+
+/* Bereitet den Code-Block für die Platzierung des "Buttons" vor */
+.post-content pre {
+    position: relative !important;
+}
+
+/* Erzeugt das "Kopieren"-Feld oben rechts im Kasten */
+.post-content pre::before {
+    content: "Code"; /* Standard-Text, falls keine Sprache erkannt wird */
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 10;
+    padding: 3px 8px;
+    font-size: 11px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #888;
+    background: rgba(128, 128, 128, 0.15);
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    pointer-events: none; /* Verhindert, dass man den Text aus Versehen markiert */
+}
+
+/* ========================================================
+   KORREKTUR FÜR DIE FARBEN BEIM DRÜBERFAHREN (HOVER)
+   ======================================================== */
+
+/* 1. Standard-Hover (für den HELLEN Modus -> Blau) */
+.post-content pre:hover::before {
+    content: "Strg + C";
+    color: #fff !important;
+    background: #0066cc !important; /* Angenehmes Blau */
+    border-color: #0066cc !important;
+}
+
+/* 2. Spezieller Hover für den DUNKLEN Modus (Greift bei PaperModX über .dark body oder .dark) */
+.dark .post-content pre:hover::before,
+.dark-theme .post-content pre:hover::before {
+    content: "Strg + C";
+    color: #fff !important;
+    background: #2ea043 !important; /* Schönes GitHub-Grün */
+    border-color: #2ea043 !important;
+}
+```
+
+Der "Copybutton" fungiert hier lediglich als Hinweis, dass die Leser meines Blogs den Codeblock kopieren und danach `Strg + C` drücken müssen. Ich hätte den Button auch clickable machen können. Dafür hätte ich jedoch ein kleines JavaScript gebraucht. Weshalb ich bei meiner jetzigen Lösung blieb, die gleich zwei unschlagbare Vorteile mit sich bringt:
+
+Absolute Performance &amp; Sicherheit
+: Da kein fremdes JavaScript im Hintergrund läuft, lädt meine Seite blitzschnell und es gibt keine Probleme mit restriktiven Browser-Sicherheitseinstellungen oder Adblockern, die Skripte gerne mal blockieren.
+
+
+Keine Bevormundung der Leser
+: Viele Entwickler und Tech-Interessierte markieren sich Code-Zeilen ohnehin am liebsten selbst mit der Maus, um nur den Teil zu kopieren, den sie wirklich brauchen. Mein Schildchen liefert dafür genau den richtigen optischen Hinweis.
 
 Weiters habe ich eine `custom-code.css` in `/assets/css/extended` ertellt. `PaperModX` bringt bereits perfekt optimierte Styles für Code-Blöcke mit, die sich automatisch an den Hell- oder Dunkelmodus deines Blogs anpassen. Beispiel für ein dynamisches Codeblock Styling (Hell- und Dunkelmodus):
 
@@ -92,3 +154,5 @@ Seit diesem Schuljahr bin ich nun für eine volle Lehrverpflichtung an der MS Ma
 ## Tja - Brille kaputt {#tja-brille-kaputt}
 
 Heute ist mir beim Brillen putzen die Fassung gebrochen. Gott sei Dank hatte ein Nachbar einen Superkleber. Trauriger Nebeneffekt: ein Brillenglas ist in einer Ecke sehr zerkratzt. Somit muss ich in nächster Zeit die Brille tauschen. So ein Missgeschick kommt nie zum passenden Zeitpunkt, wir müsssen zwei größere Reparaturen finanziell stemmen, da kommt eine 500 Euro Brille sehr ungelegen. Gott sei Dank stören die Kratzer nicht, sie liegen außerhalb des Sichtfeldes. Naja, ich hab mich erkundigt, man kann sich Unterstützung über die Krankenkassa und das Finanzamt holen.
+
+Für die Brille und die beiden Reparaturen werde ich mir Unterstützung von unserer Haushalts-, Unfall- und Rechtsschutzversicherung holen. Probieren geht über Studieren.
