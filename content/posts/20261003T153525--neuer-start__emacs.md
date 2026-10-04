@@ -3,7 +3,7 @@ title = "Neuer Start"
 author = ["Matthias Fuchs"]
 description = "Neue Sprachen und eine neue Schule"
 date = 2026-10-03T15:35:00+02:00
-lastmod = 2026-10-04T20:47:30+02:00
+lastmod = 2026-10-04T20:50:42+02:00
 tags = ["emacs"]
 categories = ["emacs"]
 draft = false
@@ -96,7 +96,7 @@ Das alleine hat nicht genügt. Ich musste durch vieles Ausprobieren auch einen `
 }
 ```
 
-Der "Copybutton" fungiert hier lediglich als Hinweis, dass die Leser meines Blogs den Codeblock kopieren und danach `Strg + C` drücken müssen. Ich hätte den Button auch clickable machen können. Dafür hätte ich jedoch ein kleines JavaScript gebraucht. Weshalb ich bei meiner jetzigen Lösung blieb, die gleich zwei unschlagbare Vorteile mit sich bringt:
+Der "Copybutton" fungiert hier lediglich als Hinweis, dass die Leser meines Blogs den Codeblock markieren und danach `Strg + C` drücken müssen. Ich hätte den Button auch clickable machen können. Dafür hätte ich jedoch ein kleines JavaScript gebraucht. Weshalb ich bei meiner jetzigen Lösung blieb, die gleich zwei unschlagbare Vorteile mit sich bringt:
 
 Absolute Performance &amp; Sicherheit
 : Da kein fremdes JavaScript im Hintergrund läuft, lädt meine Seite blitzschnell und es gibt keine Probleme mit restriktiven Browser-Sicherheitseinstellungen oder Adblockern, die Skripte gerne mal blockieren.
