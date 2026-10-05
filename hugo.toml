@@ -133,3 +133,14 @@ weight = 10
 name = "Suche"
 url = "/search/"
 weight = 20
+
+[permalinks]
+  # Zwingt Hugo dazu, URLs strikt zu bereinigen und Sonderzeichen zu entfernen
+  posts = "/posts/:filename/"
+
+[frontmatter]
+  # Verhindert, dass eckige Klammern aus dem Titel in die URL rutschen
+  slug = ["slug", "title"]
+
+# Bereinigt URLs von Akzenten und kritischen Zeichen
+removePathAccents = true
