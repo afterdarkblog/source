@@ -25,6 +25,8 @@ disqusShortname = "yourDisqusShortname"
     # damit das Theme den Wert garantiert findet:
     ShowReadingTime = true
     showReadingTime = true
+    # Optional: include full text in your RSS feed
+    ShowFullTextinRSS = true
 
 
   # Erlaubt das horizontale Scrollen bei sehr langen Codezeilen
@@ -86,16 +88,16 @@ disqusShortname = "yourDisqusShortname"
 
 # Social Icons (Umgestellt auf PaperModX Syntax)
 [[params.socialIcons]]
-name = "GitHub"
+name = "github-simple"
 url = "https://github.com"
 
 [[params.socialIcons]]
-name = "Twitter"
+name = "twitter-simple"
 url = "https://twitter.com"
 
 [[params.socialIcons]]
-name = "GitLab"
-url = "https://gitlab.com"
+name = "rss-simple"
+  url = "index.xml"
 
 [[params.socialIcons]]
     name = "telegram-simple"
