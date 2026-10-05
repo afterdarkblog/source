@@ -3,7 +3,7 @@ title = "Suche nach Wahrheit"
 author = ["Matthias Fuchs"]
 description = "Über das Gute, Wahre und Schöne."
 date = 2026-05-05T18:12:00+02:00
-lastmod = 2026-06-21T12:01:28+02:00
+lastmod = 2026-10-05T13:02:42+02:00
 tags = ["privat"]
 categories = ["philosophy"]
 draft = false
@@ -35,7 +35,7 @@ Für das Gebet in der Früh fällt mir ein (ev. eine kleine Änderung: sofort na
 
 Am Nachmittag:
 
--   BIble in a year Podcast
+-   Bible in a year Podcast
 
 Am Abend:
 
