@@ -97,6 +97,10 @@ url = "https://twitter.com"
 name = "GitLab"
 url = "https://gitlab.com"
 
+[[params.socialIcons]]
+    name = "telegram-simple"
+    url = "https://t.me"
+
 # Main menu Items
 [[menu.main]]
 name = "Home"
