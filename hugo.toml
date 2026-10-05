@@ -88,19 +88,19 @@ disqusShortname = "yourDisqusShortname"
 
 # Social Icons (Umgestellt auf PaperModX Syntax)
 [[params.socialIcons]]
-name = "github-simple"
+name = "github"
 url = "https://github.com"
 
 [[params.socialIcons]]
-name = "twitter-simple"
+name = "twitter"
 url = "https://twitter.com"
 
 [[params.socialIcons]]
-name = "rss-simple"
+name = "rss"
   url = "index.xml"
 
 [[params.socialIcons]]
-    name = "telegram-simple"
+    name = "telegram"
     url = "https://t.me"
 
 # Main menu Items
