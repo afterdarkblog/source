@@ -98,7 +98,7 @@ name = "GitLab"
 url = "https://gitlab.com"
 
 [[params.socialIcons]]
-    name = "Telegram"
+    name = "telegram-simple"
     url = "https://t.me"
 
 # Main menu Items
