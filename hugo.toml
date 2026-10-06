@@ -101,7 +101,7 @@ name = "rss"
 
 [[params.socialIcons]]
     name = "telegram"
-    url = "https://t.me"
+    url = "https://t.me/matthiasfuchs"
 
 # Main menu Items
 [[menu.main]]
