@@ -6,6 +6,7 @@ theme = 'PaperModX'
 # Hier definieren wir nun das komplett eigene, zentrierte Copyright inklusive Jahr am richtigen Platz:
 
 disqusShortname = "yourDisqusShortname"
+staticDir = ['static']
 
 [params]
     # Zeigt einen "Kopieren"-Button an allen Code-Blöcken an
@@ -27,6 +28,7 @@ disqusShortname = "yourDisqusShortname"
     showReadingTime = true
     # Optional: include full text in your RSS feed
     ShowFullTextinRSS = true
+    favicon = "favicon.svg"
 
 
   # Erlaubt das horizontale Scrollen bei sehr langen Codezeilen
