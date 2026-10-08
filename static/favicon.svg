@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg width="23.385" height="20.641" version="1.1" viewBox="0 0 23.385 23.385" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <g transform="translate(-7.9952 -1.019)">
-  <image width="32" height="22" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAWCAYAAAChWZ5EAAAB0ElEQVR4nMWWTSuEURTHz4xhwiCN
-l5SwZIVEKZEFsiFCNlJsZicfwEbJknwCCxsiFkQpk4WiJlNeFlIsRSMLTXkp/E/nTE2aGfeZuZNT
-v55bzzl3zj3nf888bvpnyyG75la+nQTYtAEw6iTARfasEuwBH+gCjyZBtirArZwEDaBO17kmgbYS
-KNcfzQd5uq4xCbSRALcxAOrBPtjRdYAMWmxDA51gFzyDMRAl0UIZGARHqYIzrUAJmAMFYB1cgFtd
-e8GC+mQlAa7eMGgDD2ANvINPXd+DRvVxZSMBP5gmuXbL4DruHa9XSKrAPtXJNslkEvLGU+AUzJCc
-PN6uQAdoBxFwkmiTdEVYC8IkFRwCwSR+reCQZDS3gLvfDum0gEu+CIpJxBZK4XupPhyzpM+ME+gB
-veAFrILXFL5v6sMi7dbYjBIoIplypWCTpP9/GftskJyeY/3xL52KkK/ULLghEWDUMO6c5PR8Zfl6
-hmMvnIiQJ9sZqAITYIucWR/YBk+aCD+NK+AB86AfHJP0ldtX6ADWShNoJhHwAfgyrQALiKcbnz4S
-yz4NqyCpJAt4BAQ9BkH8FztOkjWr2kcJrpMD4z28umfItAIcYPPriY2H08cPG7pP6fxWM0EAAAAA
-SUVORK5CYII=
-"/>
-  <g fill="none" stroke-width="4">
+ <g transform="translate(-7.9952 -1.019)" stroke-width="5.5321">
+  <image width="32" height="22" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAWCAYAAAChWZ5EAAAB0ElEQVR4nMWWTSuEURTHz4xhwiCN l5SwZIVEKZEFsiFCNlJsZicfwEbJknwCCxsiFkQpk4WiJlNeFlIsRSMLTXkp/E/nTE2aGfeZuZNT v55bzzl3zj3nf888bvpnyyG75la+nQTYtAEw6iTARfasEuwBH+gCjyZBtirArZwEDaBO17kmgbYS KNcfzQd5uq4xCbSRALcxAOrBPtjRdYAMWmxDA51gFzyDMRAl0UIZGARHqYIzrUAJmAMFYB1cgFtd e8GC+mQlAa7eMGgDD2ANvINPXd+DRvVxZSMBP5gmuXbL4DruHa9XSKrAPtXJNslkEvLGU+AUzJCc PN6uQAdoBxFwkmiTdEVYC8IkFRwCwSR+reCQZDS3gLvfDum0gEu+CIpJxBZK4XupPhyzpM+ME+gB veAFrILXFL5v6sMi7dbYjBIoIplypWCTpP9/GftskJyeY/3xL52KkK/ULLghEWDUMO6c5PR8Zfl6 hmMvnIiQJ9sZqAITYIucWR/YBk+aCD+NK+AB86AfHJP0ldtX6ADWShNoJhHwAfgyrQALiKcbnz4S yz4NqyCpJAt4BAQ9BkH8FztOkjWr2kcJrpMD4z28umfItAIcYPPriY2H08cPG7pP6fxWM0EAAAAA SUVORK5CYII= "/>
+  <g fill="none">
    <rect x="7.734" y="20.145" width="11.418" height=".86223"/>
    <rect x="7.9169" y="1.3064" width="23.019" height="20.067"/>
    <rect x="28.088" y="5.8789" width=".39192" height=".052257"/>
