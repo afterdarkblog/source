@@ -29,7 +29,7 @@ fi
 echo "Pushe fertige Website in das Live-Repository..."
 cd public
 
-# Wir stellen sicher, dass der public-Ordner auf das echte Live-Repository zeigt
+# Erzwingt, dass die fertigen HTML-Dateien an das Live-Repository gehen
 git remote set-url origin git@github.com:afterdarkblog/afterdarkblog.github.io.git
 
 git add -A .
@@ -38,16 +38,17 @@ git pull origin main --rebase
 git push origin main
 cd ..
 
-# Kurze Pause, damit GitHub im Hintergrund die Daten verarbeiten kann
+# Kurze Pause, damit GitHub im Hintergrund die HTML-Daten verarbeiten kann
 echo "Warte kurz auf GitHub Sync..."
 sleep 3
 
 # 5. IM HAUPTVERZEICHNIS: Den Quellcode als Backup in das source-Repository sichern
 echo "Sichere Quellcode im source-Repository..."
 
-# Wir stellen sicher, dass dein Quellcode im passiven source-Repository gesichert wird
+# Erzwingt, dass deine Markdown-Quelltexte im Backup-Repository landen
 git remote set-url origin git@github.com:afterdarkblog/source.git
 
+# Sorgt dafür, dass das Hauptverzeichnis den public-Ordner ignoriert (kein Submodul-Müll!)
 if [ ! -f .git/info/exclude ] || ! grep -q "^public/" .git/info/exclude; then
     echo "public/" >> .git/info/exclude
 fi
@@ -57,4 +58,6 @@ git commit -m "$commit_message"
 git pull origin main --rebase
 git push origin main
 
-echo "Fertig! Ihr Blog inklusive Suche ist im Submodul-Modus live und Ihr Terminal bleibt grün!"
+echo "--------------------------------------------------------"
+echo "Fertig! Webseite ist live und Quellcode sicher im Backup!"
+echo "--------------------------------------------------------"

@@ -3,7 +3,7 @@ title = "git und ssh"
 author = ["Matthias Fuchs"]
 description = "Der goldene Standard"
 date = 2026-10-09T19:25:00+02:00
-lastmod = 2026-10-09T20:13:48+02:00
+lastmod = 2026-10-09T21:31:53+02:00
 tags = ["emacs", "git"]
 draft = false
 +++
@@ -74,4 +74,4 @@ Da ich meinen Blog [After Dark](https://afterdarkblog.github.io/) in den letzten
 </svg>
 ```
 
-Der Blog lädt blitzschnell, sieht schick aus und es macht mir viel Freude, immer wieder einen neuen Beitrag zu verfassen. Das Schreiben hilft mir, meine Gedanken zu formulieren und zu verbessern. Im Schreiben kann ich tiefer über ein Thema nachdenken - es gilt, im Flow zu bleiben. Einfach zu schreiben. Die Gedanken werden kommen und sich weiter entwicklen. Das ist spannend. Noch eine kleine Verbesserung zum Schluss.
+Der Blog lädt blitzschnell, sieht schick aus und es macht mir viel Freude, immer wieder einen neuen Beitrag zu verfassen. Das Schreiben hilft mir, meine Gedanken zu formulieren und zu verbessern. Im Schreiben kann ich tiefer über ein Thema nachdenken - es gilt, im Flow zu bleiben. Einfach zu schreiben. Die Gedanken werden kommen und sich weiter entwicklen. Das ist spannend. Noch eine kleine Verbesserung zum Schluss. Das Repo wurde komplett überarbeitet.
