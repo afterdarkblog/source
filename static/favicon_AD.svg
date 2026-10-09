@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <style>
+    /* Standard-Farben (Light Mode) */
+    .bg { fill: #111111; }
+    .text { fill: #FFFFFF; }
+
+    /* Automatische Anpassung für den Dark Mode */
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #FFFFFF; }
+      .text { fill: #111111; }
+    }
+  </style>
+
+  <!-- Abgerundeter Hintergrund für bessere Sichtbarkeit -->
+  <rect class="bg" width="32" height="32" rx="6" />
+
+  <!-- Dein Blog-Anfangsbuchstabe (Ersetze das 'B') -->
+  <text class="text" x="50%" y="55%"
+        dominant-baseline="middle"
+        text-anchor="middle"
+        font-family="system-ui, -apple-system, sans-serif"
+        font-weight="bold"
+        font-size="20">AD</text>
+</svg>
