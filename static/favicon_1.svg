@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="geometricPrecision">
+  <style>
+    path {
+      fill: none;
+      /* Linienstärke von 2.0 auf 2.5 erhöht für mehr Stabilität bei 16x16 */
+      stroke-width: 2.0;
+      stroke-linejoin: round;
+      stroke-linecap: round;
+      stroke: #FF3366;
+    }
+    @media (prefers-color-scheme: dark) {
+      path {
+        stroke: #00E5FF;
+      }
+    }
+  </style>
+  <!-- Koordinaten minimal korrigiert für eine sauberere Skalierung -->
+  <path d="M12,2 L2,21 H22 Z M12,6.5 L18.5,18 H5.5 Z" />
+</svg>
