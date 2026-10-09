@@ -3,7 +3,7 @@
     <style>
       .triangle {
         fill: none;
-        stroke: #FF9F00; /* Gelb-Orange im Light Mode */
+        stroke: #FF3366; /*  #FF9F00 Gelb-Orange im Light Mode */
         stroke-width: 4;
         stroke-linejoin: round;
       }
