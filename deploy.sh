@@ -25,9 +25,13 @@ if [ -z "$commit_message" ]; then
     commit_message="Blog aktualisiert am $(date +'%Y-%m-%d')"
 fi
 
-# 4. IM PUBLIC-VERZEICHNIS: Die fertige Website hochladen
-echo "Pushe fertige Website..."
+# 4. IM PUBLIC-VERZEICHNIS: Die fertige Website ins Live-Repository hochladen
+echo "Pushe fertige Website in das Live-Repository..."
 cd public
+
+# Wir stellen sicher, dass der public-Ordner auf das echte Live-Repository zeigt
+git remote set-url origin git@github.com:afterdarkblog/afterdarkblog.github.io.git
+
 git add -A .
 git commit -m "$commit_message"
 git pull origin main --rebase
@@ -38,9 +42,12 @@ cd ..
 echo "Warte kurz auf GitHub Sync..."
 sleep 3
 
-# 5. IM HAUPTVERZEICHNIS: Nur den Quellcode (ohne den public-Inhalt) sichern
-echo "Sichere Quellcode im Hauptverzeichnis..."
-# Wir fügen public zur Sicherheit lokal zur Ignorier-Liste hinzu, damit kein Zeiger-Müll hochgeladen wird
+# 5. IM HAUPTVERZEICHNIS: Den Quellcode als Backup in das source-Repository sichern
+echo "Sichere Quellcode im source-Repository..."
+
+# Wir stellen sicher, dass dein Quellcode im passiven source-Repository gesichert wird
+git remote set-url origin git@github.com:afterdarkblog/source.git
+
 if [ ! -f .git/info/exclude ] || ! grep -q "^public/" .git/info/exclude; then
     echo "public/" >> .git/info/exclude
 fi
