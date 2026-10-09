@@ -3,7 +3,7 @@
     path {
       /* WICHTIG: fill auf "none" setzen, sonst wird das Dreieck schwarz ausgefüllt */
       fill: none;
-      stroke-width: 2.0;
+      stroke-width: 4.0;
       stroke-linejoin: round;
       stroke-linecap: round;
 
