@@ -30,15 +30,16 @@ echo "Pushe fertige Website aus dem public-Ordner..."
 cd public
 git add -A .
 git commit -m "$commit_message"
+git pull origin main --rebase  # Zuerst eventuelle Online-Änderungen holen
 git push origin main
 cd ..
 
 # 5. IM HAUPTVERZEICHNIS: Den neuen Submodul-Zeiger und Quellcode sichern
 echo "Sichere Quellcode im Hauptverzeichnis..."
-# -f (force) zwingt Git dazu, das ignorierte public-Submodul im Hauptindex zu aktualisieren
-git add -f public
+git add public                 # Ohne -f, um Git die normale Submodul-Verwaltung zu überlassen
 git add -A .
 git commit -m "$commit_message"
+git pull origin main --rebase  # Auch hier vor dem Push synchronisieren
 git push origin main
 
 echo "Fertig! Ihr Blog inklusive Suche ist im Submodul-Modus live und Ihr Terminal bleibt grün!"
