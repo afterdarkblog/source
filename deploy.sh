@@ -25,21 +25,29 @@ if [ -z "$commit_message" ]; then
     commit_message="Blog aktualisiert am $(date +'%Y-%m-%d')"
 fi
 
-# 4. IM SUBMODUL (public): Die fertige Website zu GitHub Pages pushen
-echo "Pushe fertige Website aus dem public-Ordner..."
+# 4. IM PUBLIC-VERZEICHNIS: Die fertige Website hochladen
+echo "Pushe fertige Website..."
 cd public
 git add -A .
 git commit -m "$commit_message"
-git pull origin main --rebase  # Zuerst eventuelle Online-Änderungen holen
+git pull origin main --rebase
 git push origin main
 cd ..
 
-# 5. IM HAUPTVERZEICHNIS: Den neuen Submodul-Zeiger und Quellcode sichern
+# Kurze Pause, damit GitHub im Hintergrund die Daten verarbeiten kann
+echo "Warte kurz auf GitHub Sync..."
+sleep 3
+
+# 5. IM HAUPTVERZEICHNIS: Nur den Quellcode (ohne den public-Inhalt) sichern
 echo "Sichere Quellcode im Hauptverzeichnis..."
-git add public                 # Ohne -f, um Git die normale Submodul-Verwaltung zu überlassen
+# Wir fügen public zur Sicherheit lokal zur Ignorier-Liste hinzu, damit kein Zeiger-Müll hochgeladen wird
+if [ ! -f .git/info/exclude ] || ! grep -q "^public/" .git/info/exclude; then
+    echo "public/" >> .git/info/exclude
+fi
+
 git add -A .
 git commit -m "$commit_message"
-git pull origin main --rebase  # Auch hier vor dem Push synchronisieren
+git pull origin main --rebase
 git push origin main
 
 echo "Fertig! Ihr Blog inklusive Suche ist im Submodul-Modus live und Ihr Terminal bleibt grün!"
