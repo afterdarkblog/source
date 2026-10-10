@@ -128,3 +128,40 @@ body.list .footer {
     border-color: #2ea043 !important;
 }
 
+/* ==========================================================================
+   Pagefind Suchfunktion Anpassung für PaperModX (Dark Mode)
+   ========================================================================== */
+
+/* Variante 1: Wenn das System über prefers-color-scheme umschaltet (Manjaro) */
+@media (prefers-color-scheme: dark) {
+  .pagefind-ui__result-excerpt,
+  .pagefind-ui__result-title,
+  .pagefind-ui__message,
+  .pagefind-ui__result-link {
+    color: #e5e7eb !important; /* Helles Grau für perfekten Kontrast */
+  }
+
+  .pagefind-ui__result-excerpt mark {
+    background-color: #fde047 !important; /* Behält dein gelbes Such-Highlight */
+    color: #000000 !important; /* Schwarze Schrift auf gelbem Grund für Lesbarkeit */
+  }
+}
+
+/* Variante 2: Falls PaperModX eine .dark Klasse oder data-theme nutzt */
+.dark .pagefind-ui__result-excerpt,
+.dark .pagefind-ui__result-title,
+.dark .pagefind-ui__message,
+.dark .pagefind-ui__result-link,
+html[data-theme="dark"] .pagefind-ui__result-excerpt,
+html[data-theme="dark"] .pagefind-ui__result-title,
+html[data-theme="dark"] .pagefind-ui__message,
+html[data-theme="dark"] .pagefind-ui__result-link {
+  color: #e5e7eb !important;
+}
+
+/* Sorgt dafür, dass die gelbe Markierung lesbar bleibt, egal welche Klasse greift */
+.dark .pagefind-ui__result-excerpt mark,
+html[data-theme="dark"] .pagefind-ui__result-excerpt mark {
+  background-color: #fde047 !important;
+  color: #000000 !important;
+}
