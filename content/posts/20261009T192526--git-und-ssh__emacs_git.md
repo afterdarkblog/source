@@ -3,7 +3,7 @@ title = "git und ssh"
 author = ["Matthias Fuchs"]
 description = "Der goldene Standard"
 date = 2026-10-09T19:25:00+02:00
-lastmod = 2026-10-10T16:05:53+02:00
+lastmod = 2026-10-10T16:14:49+02:00
 tags = ["emacs", "git"]
 draft = false
 +++
@@ -174,3 +174,5 @@ Vor ein paar Tagen brach mir die Fassung meiner Brille. Ich hab sie mit Superkle
 {{< figure src="/images/Gebrochene_Brille.jpg" alt="wunderschön" title="Gebrochene Brille" class="border-2" width="100%" height="100%" >}}
 
 {{< figure src="/images/Neue_Brille.jpg" alt="wunderschön" title="Neue Brille" class="border-2" width="100%" height="100%" >}}
+
+In weiterer Folge werde ich - wenn es die Finanzen wieder zulassen - neue Gläser für die neue Fassung besorgen. Der Optiker in Nonntal hat mir sehr gut gefallen. Die Mitarbeiter sind sehr freundlich und kompetent.
