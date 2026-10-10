@@ -3,7 +3,7 @@ title = "git und ssh"
 author = ["Matthias Fuchs"]
 description = "Der goldene Standard"
 date = 2026-10-09T19:25:00+02:00
-lastmod = 2026-10-10T14:45:58+02:00
+lastmod = 2026-10-10T14:48:30+02:00
 tags = ["emacs", "git"]
 draft = false
 +++
@@ -162,7 +162,7 @@ Der Quellcode (Hauptordner)
 Ich authentifiziere mich nicht mehr über HTTPS mit einem Passfahrtschein (Token), der alle 90 Tage abläuft. Mein Computer nutzt jetzt einen festen SSH-Schlüssel. Git wandelt jede GitHub-Adresse im Hintergrund automatisch um, gleicht meinen Schlüssel ab und lässt mich ohne jegliche Passworteingabe gewähren.
 
 
-### Das Ergebnis für dich: {#das-ergebnis-für-dich}
+### Das Ergebnis für mich: {#das-ergebnis-für-mich}
 
 Mein Skript steuert die beiden Repositories nun nacheinander als zwei völlig getrennte Welten an. Es lädt erst die Webseite auf die Bühne (Live-Repo) und sichert danach das Skript und die Texte im Safe (Backup-Repo). Es kann sich technisch nichts mehr blockieren.
 
