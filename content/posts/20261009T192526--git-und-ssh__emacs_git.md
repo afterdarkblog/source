@@ -3,14 +3,14 @@ title = "git und ssh"
 author = ["Matthias Fuchs"]
 description = "Der goldene Standard"
 date = 2026-10-09T19:25:00+02:00
-lastmod = 2026-10-10T14:48:30+02:00
+lastmod = 2026-10-10T16:05:53+02:00
 tags = ["emacs", "git"]
 draft = false
 +++
 
 ## Es war "mühsam" {#es-war-mühsam}
 
-Bis musste ich bei jeder Aktion auf `git` den Benutzernamen und den Token eingeben. Das war mehr als mühsam. Zusätzlich musste ich den Token alle 90 Tage neu generieren und ändern. Weshalb ich heute nach einer anderen Möglichkeit gesucht habe, diesen Prozess auf eine elegantere Weise durchzuführen.
+Bis jetzt musste ich bei jeder Aktion auf `git` den Benutzernamen und den Token eingeben. Das war mehr als mühsam. Zusätzlich musste ich den Token alle 90 Tage neu generieren und ändern. Weshalb ich heute nach einer anderen Möglichkeit gesucht habe, diesen Prozess auf eine elegantere Weise durchzuführen.
 
 
 ## Der `ssh-key` {#der-ssh-key}
