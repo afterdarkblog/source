@@ -3,7 +3,7 @@ title = "git und ssh"
 author = ["Matthias Fuchs"]
 description = "Der goldene Standard"
 date = 2026-10-09T19:25:00+02:00
-lastmod = 2026-10-12T15:46:47+02:00
+lastmod = 2026-10-13T17:27:35+02:00
 tags = ["emacs", "git"]
 draft = false
 +++
@@ -167,7 +167,7 @@ Ich authentifiziere mich nicht mehr über HTTPS mit einem Passfahrtschein (Token
 Mein Skript steuert die beiden Repositories nun nacheinander als zwei völlig getrennte Welten an. Es lädt erst die Webseite auf die Bühne (Live-Repo) und sichert danach das Skript und die Texte im Safe (Backup-Repo). Es kann sich technisch nichts mehr blockieren.
 
 
-## Brille gebrochen {#brille-gebrochen}
+## Brille gebrochen {#Brille}
 
 Vor ein paar Tagen brach mir die Fassung meiner Brille. Ich hab sie mit Superkleber repariert. Dabei wurde das Glas zerkratzt. Und heute ist sie mir ein zweites Mal gebrochen. Mit Leopold sind wir beide in die Stadt gefahren. Leider bin ich zuerst zur Stadtbibliothek gefahren, um Bücher zurück zu bringen und neue auszuborgen. Warum leider? Ich dachte - den Optiker mache ich am Rückweg. Denn ich hatte ein Geschäft in Nonntal während der Hinfahrt entdeckt. Der Optiker in Nonntal schließt um 12h30. Es war knapp, aber wir haben es doch geschafft und nun habe ich wieder eine ordentliche Brille.
 
