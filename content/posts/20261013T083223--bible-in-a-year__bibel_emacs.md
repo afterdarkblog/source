@@ -3,7 +3,7 @@ title = "Bible in a Year"
 author = ["Matthias Fuchs"]
 description = "Gottes Wort"
 date = 2026-10-13T08:32:00+02:00
-lastmod = 2026-10-13T17:49:18+02:00
+lastmod = 2026-10-13T21:26:20+02:00
 tags = ["bibel", "emacs"]
 categories = ["bible"]
 draft = false
@@ -36,7 +36,7 @@ Es ist großartig. Jeden Tag auf Gottes Wort hören, gerade durch diesen speziel
 
 ## Links zu anderen Posts und Headline {#links-zu-anderen-posts-und-headline}
 
-Dafür verwende ich typischen org-link `[[file:mein-anderer-post.org][anderen Beitrag]]`.
+Dafür verwende ich den typischen org-link `[[file:mein-anderer-post.org][anderen Beitrag]]`.
 
 Im Org-Mode
 : Der Link funktioniert direkt in Emacs.
