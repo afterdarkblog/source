@@ -3,7 +3,7 @@ title = "Bible in a Year"
 author = ["Matthias Fuchs"]
 description = "Gottes Wort"
 date = 2026-10-13T08:32:00+02:00
-lastmod = 2026-10-13T21:26:20+02:00
+lastmod = 2026-10-13T22:16:17+02:00
 tags = ["bibel", "emacs"]
 categories = ["bible"]
 draft = false
@@ -57,4 +57,4 @@ Um einen Link zu einer Headline in einem Post herzustellen, muss ich zuerst im v
  Text unter der Überschrift...
 ```
 
-Der Link dorthin sieht folgendermaßen aus: `[[file:mein-anderer-post.org::#mein-anker-punkt][spezifischen Abschnitt]]`. Wichtig ist dabei der doppelte Doppelpunkt `::#`. Im nächsten Satz hab ich zum vorherigen Post, und dort zum Abschnitt meiner kaputten Brille verlinkt. Hier mache ich noch einen Link zu [Brille gebrochen]({{< relref "20261009T192526--git-und-ssh__emacs_git#Brille" >}}). Damit möhte ich nur wissen, ob so ein Link auch online funtkioniert.
+Der Link dorthin sieht folgendermaßen aus: `[[file:mein-anderer-post.org::#mein-anker-punkt][spezifischen Abschnitt]]`. Wichtig ist dabei der doppelte Doppelpunkt `::#`. Im nächsten Satz hab ich zum vorherigen Post, und dort zum Abschnitt meiner kaputten Brille verlinkt. Hier mache ich noch einen Link zu [Brille gebrochen]({{< relref "20261009T192526--git-und-ssh__emacs_git#Brille" >}}). Damit möchte ich nur wissen, ob diese Art von Link auch online funtkioniert.
