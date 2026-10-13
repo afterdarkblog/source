@@ -3,7 +3,7 @@ title = "Bible in a Year"
 author = ["Matthias Fuchs"]
 description = "Gottes Wort"
 date = 2026-10-13T08:32:00+02:00
-lastmod = 2026-10-13T17:42:29+02:00
+lastmod = 2026-10-13T17:49:18+02:00
 tags = ["bibel", "emacs"]
 categories = ["bible"]
 draft = false
@@ -42,7 +42,7 @@ Im Org-Mode
 : Der Link funktioniert direkt in Emacs.
 
 Beim Export (.md)
-: `ox-hugo` konvertiert dies automatisch in einen relativen Markdown-Link (z. B. [anderen Beitrag](../mein-anderer-post/)).
+: `ox-hugo` konvertiert dies automatisch in einen relativen Markdown-Link (z. B. `[anderen Beitrag](../mein-anderer-post/)`).
 
 In HTML
 : Hugo rendert daraus den fertigen HTML-Link.
