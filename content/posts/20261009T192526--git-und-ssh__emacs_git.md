@@ -3,9 +3,14 @@ title = "git und ssh"
 author = ["Matthias Fuchs"]
 description = "Der goldene Standard"
 date = 2026-10-09T19:25:00+02:00
-lastmod = 2026-10-13T17:27:35+02:00
+lastmod = 2026-10-15T19:56:33+02:00
 tags = ["emacs", "git"]
+categories = ["Emacs"]
 draft = false
+[cover]
+  image = "images/poplar-trees.jpg"
+  alt = "Beschreibung des Bildes"
+  hidden = true
 +++
 
 ## Es war "mühsam" {#es-war-mühsam}
