@@ -3,14 +3,13 @@ title = "Neuer Start"
 author = ["Matthias Fuchs"]
 description = "Neue Sprachen und eine neue Schule"
 date = 2026-10-03T15:35:00+02:00
-lastmod = 2026-10-15T19:47:48+02:00
+lastmod = 2026-10-17T00:17:20+02:00
 tags = ["emacs"]
 categories = ["emacs"]
 draft = false
 [cover]
   image = "images/Vezelay_Nef_Chapiteau_230608_08.jpg"
   alt = "Beschreibung des Bildes"
-  hidden = true
 +++
 
 ## Neues Theme 'PaperModX' {#neues-theme-papermodx}

@@ -3,14 +3,13 @@ title = "Bible in a Year"
 author = ["Matthias Fuchs"]
 description = "Gottes Wort"
 date = 2026-10-13T08:32:00+02:00
-lastmod = 2026-10-15T13:57:45+02:00
+lastmod = 2026-10-17T00:16:27+02:00
 tags = ["bibel", "emacs"]
 categories = ["bible"]
 draft = false
 [cover]
   image = "images/gold-fern-like-tree.jpg"
   alt = "Beschreibung des Bildes"
-  hidden = true
 +++
 
 ## Psalm 119,41 u. 43.44–45.47–48 {#psalm-119-41-u-dot-43-dot-44-45-dot-47-48}

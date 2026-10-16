@@ -3,14 +3,13 @@ title = "Reise nach Wien"
 author = ["Matthias Fuchs"]
 description = "Mit Gabriel in Wien, Besuch bei Meli und Otto."
 date = 2026-05-02T15:51:00+02:00
-lastmod = 2026-10-16T08:52:27+02:00
+lastmod = 2026-10-17T00:17:37+02:00
 tags = ["privat"]
 categories = ["privat"]
 draft = false
 [cover]
   image = "images/Stadtpark.jpg"
   alt = "Beschreibung des Bildes"
-  hidden = true
 +++
 
 ## Hinreise {#hinreise}
