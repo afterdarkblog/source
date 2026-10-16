@@ -3,10 +3,14 @@ title = "Suche nach Wahrheit"
 author = ["Matthias Fuchs"]
 description = "Über das Gute, Wahre und Schöne."
 date = 2026-05-05T18:12:00+02:00
-lastmod = 2026-10-05T13:02:42+02:00
+lastmod = 2026-10-16T08:14:43+02:00
 tags = ["privat"]
 categories = ["philosophy"]
 draft = false
+[cover]
+  image = "images/angel.jpg"
+  alt = "Beschreibung des Bildes"
+  hidden = true
 +++
 
 ## Die Kunst der Erziehung {#die-kunst-der-erziehung}
