@@ -3,7 +3,7 @@ title = "Reise nach Wien"
 author = ["Matthias Fuchs"]
 description = "Mit Gabriel in Wien, Besuch bei Meli und Otto."
 date = 2026-05-02T15:51:00+02:00
-lastmod = 2026-10-17T17:26:01+02:00
+lastmod = 2026-10-17T17:30:53+02:00
 tags = ["privat"]
 categories = ["privat"]
 draft = false
@@ -40,18 +40,18 @@ Am Freitag: um 10h00 bei Meli, Kaffee dann Wallfahrt zu sieben Kirchen - Gebet u
 
 -   Dominikaner
 
-{{< figure src="/images/Jesuiten.jpg" alt="wunderschön" title="Dominikanerkirche Wien" class="border-2" width="100%" height="100%" >}}
+{{< figure src="/images/Jesuiten.jpg" alt="wunderschön" title="Jesuitenkirche Wien" class="border-2" width="100%" height="100%" >}}
 
 -   Jesuiten
 -   Franziskaner
 -   Kapuziner
 -   Schotten
 
-{{< figure src="/images/Maria_Gestaade1.jpg" alt="wunderschön" title="Dominikanerkirche Wien" class="border-2" width="100%" height="100%" >}}
+{{< figure src="/images/Maria_Gestaade1.jpg" alt="wunderschön" title="Maria am Gestaade" class="border-2" width="100%" height="100%" >}}
 
-{{< figure src="/images/Maria_Gestaade2.jpg" alt="wunderschön" title="Dominikanerkirche Wien" class="border-2" width="100%" height="100%" >}}
+{{< figure src="/images/Maria_Gestaade2.jpg" alt="wunderschön" title="Maria am Gestaade" class="border-2" width="100%" height="100%" >}}
 
-{{< figure src="/images/Maria_Gestaade3.jpg" alt="wunderschön" title="Dominikanerkirche Wien" class="border-2" width="100%" height="100%" >}}
+{{< figure src="/images/Maria_Gestaade3.jpg" alt="wunderschön" title="Maria am Gestaade" class="border-2" width="100%" height="100%" >}}
 
 -   Maria am Gestade
 -   Petruskirche
@@ -60,7 +60,7 @@ Am Freitag: um 10h00 bei Meli, Kaffee dann Wallfahrt zu sieben Kirchen - Gebet u
 
 {{< figure src="/images/Passage1.jpg" alt="wunderschön" title="Passage Wien" class="border-2" width="100%" height="100%" >}}
 
-{{< figure src="/images/Passage2.jpg" alt="wunderschön" title="Dominikanerkirche Wien" class="border-2" width="100%" height="100%" >}}
+{{< figure src="/images/Passage2.jpg" alt="wunderschön" title="Passage Wien" class="border-2" width="100%" height="100%" >}}
 
 Mittagessen mit Meli und Eisessen
 
