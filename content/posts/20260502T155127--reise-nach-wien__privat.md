@@ -3,7 +3,7 @@ title = "Reise nach Wien"
 author = ["Matthias Fuchs"]
 description = "Mit Gabriel in Wien, Besuch bei Meli und Otto."
 date = 2026-05-02T15:51:00+02:00
-lastmod = 2026-10-17T21:53:46+02:00
+lastmod = 2026-10-17T21:59:54+02:00
 tags = ["privat"]
 categories = ["privat"]
 draft = false
@@ -44,11 +44,11 @@ Hier haben wir eine Zeit der eucharistischen Anebtung verbacht.
 
 Das rechte Urteil über das Leben aus Gottes Sicht.
 
-{{< figure src="/images/Dominikaner2.jpg" alt="wunderschön" title="Dominikanerkirche Wien" class="border-2" width="100%" height="100%" >}}
+{{< figure src="/images/Dominikaner2.jpg" alt="wunderschön" title="Dominikanerkirche Wien" class="border-2" width="50%" height="50%" >}}
 
-{{< figure src="/images/Dominikaner3.jpg" alt="wunderschön" title="Dominikanerkirche Hauptaltar" class="border-2" width="100%" height="100%" >}}
+{{< figure src="/images/Dominikaner3.jpg" alt="wunderschön" title="Dominikanerkirche Hauptaltar" class="border-2" width="50%" height="50%" >}}
 
-{{< figure src="/images/Dominikaner4.jpg" alt="wunderschön" title="Dominikanerkirche Seitenaltar" class="border-2" width="100%" height="100%" >}}
+{{< figure src="/images/Dominikaner4.jpg" alt="wunderschön" title="Dominikanerkirche Seitenaltar" class="border-2" width="50%" height="50%" >}}
 
 
 ### Einsicht / Verstand (Intellectus) {#einsicht-verstand--intellectus}
