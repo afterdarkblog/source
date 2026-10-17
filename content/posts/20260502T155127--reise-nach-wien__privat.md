@@ -3,7 +3,7 @@ title = "Reise nach Wien"
 author = ["Matthias Fuchs"]
 description = "Mit Gabriel in Wien, Besuch bei Meli und Otto."
 date = 2026-05-02T15:51:00+02:00
-lastmod = 2026-10-17T17:30:53+02:00
+lastmod = 2026-10-17T17:53:14+02:00
 tags = ["privat"]
 categories = ["privat"]
 draft = false
@@ -38,14 +38,21 @@ Am Freitag: um 10h00 bei Meli, Kaffee dann Wallfahrt zu sieben Kirchen - Gebet u
 
 {{< figure src="/images/Dominikaner4.jpg" alt="wunderschön" title="Dominikanerkirche Seitenaltar Wien" class="border-2" width="100%" height="100%" >}}
 
--   Dominikaner
-
 {{< figure src="/images/Jesuiten.jpg" alt="wunderschön" title="Jesuitenkirche Wien" class="border-2" width="100%" height="100%" >}}
 
--   Jesuiten
--   Franziskaner
--   Kapuziner
--   Schotten
+{{< figure src="/images/Jesuitenkirche_Innenansicht.jpg" alt="wunderschön" title="Jesuitenkirche Innenansicht" class="border-2" width="100%" height="100%" >}}
+
+{{< figure src="/images/Franziskanerkirche.jpg" alt="wunderschön" title="Franziskanerkirche" class="border-2" width="100%" height="100%" >}}
+
+{{< figure src="/images/Franziskanerkirche_Innenansicht.jpg" alt="wunderschön" title="Franziskanerkirche Innenansicht" class="border-2" width="100%" height="100%" >}}
+
+{{< figure src="/images/Kapuzinerkirche.jpg" alt="wunderschön" title="Kapuzinerkirche" class="border-2" width="100%" height="100%" >}}
+
+{{< figure src="/images/Kapuzinerkirche_Innenansicht.jpg" alt="wunderschön" title="Kapuzinerkirche Innenansicht" class="border-2" width="100%" height="100%" >}}
+
+{{< figure src="/images/Schottenkirche.jpg" alt="wunderschön" title="Freyung, Schottensift" class="border-2" width="100%" height="100%" >}}
+
+{{< figure src="/images/Schottenkirche_Innenansicht.jpg" alt="wunderschön" title="Schottenkirche Innenansicht" class="border-2" width="100%" height="100%" >}}
 
 {{< figure src="/images/Maria_Gestaade1.jpg" alt="wunderschön" title="Maria am Gestaade" class="border-2" width="100%" height="100%" >}}
 
@@ -53,8 +60,9 @@ Am Freitag: um 10h00 bei Meli, Kaffee dann Wallfahrt zu sieben Kirchen - Gebet u
 
 {{< figure src="/images/Maria_Gestaade3.jpg" alt="wunderschön" title="Maria am Gestaade" class="border-2" width="100%" height="100%" >}}
 
--   Maria am Gestade
--   Petruskirche
+{{< figure src="/images/Peterskirche.jpg" alt="wunderschön" title="Peterskirche" class="border-2" width="100%" height="100%" >}}
+
+{{< figure src="/images/Peterskirche_Innenansicht.jpg" alt="wunderschön" title="Peterskirche Innenansicht" class="border-2" width="100%" height="100%" >}}
 
 {{< figure src="/images/Palais_Ferstl.jpg" alt="wunderschön" title="Palais Ferstl Wien" class="border-2" width="100%" height="100%" >}}
 
