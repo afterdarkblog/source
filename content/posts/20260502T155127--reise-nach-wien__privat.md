@@ -3,7 +3,7 @@ title = "Reise nach Wien"
 author = ["Matthias Fuchs"]
 description = "Mit Gabriel in Wien, Besuch bei Meli und Otto."
 date = 2026-05-02T15:51:00+02:00
-lastmod = 2026-10-17T17:53:14+02:00
+lastmod = 2026-10-17T17:58:06+02:00
 tags = ["privat"]
 categories = ["privat"]
 draft = false
@@ -30,7 +30,9 @@ Hilton Waterfront am Handelskai, direkt am Ufer der Donau. Wunderschönes Hotel,
 
 Am Freitag: um 10h00 bei Meli, Kaffee dann Wallfahrt zu sieben Kirchen - Gebet um die sieben Gaben des Hl. Geistes.
 
--   St. Rochus (extra: eucharistische Anbetung rund um die Uhr).
+{{< figure src="/images/Rochuskirche.jpg" alt="wunderschön" title="Seekirchen am Wallersee" class="border-2" width="100%" height="100%" >}}
+
+{{< figure src="/images/Rochuskirche_Innenraum.jpg" alt="wunderschön" title="Seekirchen am Wallersee" class="border-2" width="100%" height="100%" >}}
 
 {{< figure src="/images/Dominikaner2.jpg" alt="wunderschön" title="Dominikanerkirche Wien" class="border-2" width="100%" height="100%" >}}
 
