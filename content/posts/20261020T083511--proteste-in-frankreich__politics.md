@@ -1,9 +1,9 @@
 +++
 title = "Proteste in Frankreich"
 author = ["Matthias Fuchs"]
-description = "This text was generated using the After Dark post archetype."
+description = "Gewalt ist keine Lösung."
 date = 2026-10-20T08:35:00+02:00
-lastmod = 2026-10-21T09:23:31+02:00
+lastmod = 2026-10-21T11:26:23+02:00
 tags = ["politics"]
 categories = ["Politics"]
 draft = false
@@ -14,9 +14,17 @@ draft = false
 
 ## Berechtigte Wut {#berechtigte-wut}
 
-Die aktuelle Situation in Frankreich ist für mich sehr beunruhigend. Den Durchblick besitze ich nicht und ich will hier auch nicht alle Details und die Gewalttaten aufzählen. Dazu muss ich mich in den nächsten Tagen genauer in die verschiedenen medien vertiefen und nachforschen, was hier passiert. Verwandte ud Bekannte leben in Frankreich. Sie berichten mir schon seit Jahren von katastrophalen Zuständen z.B. an den Schulen: baufällige Gebäude, keine Heizung, keine Klimaanlage, fehlende Lehrer, Gewalt unter den Schülern, Gewalt gegen Lehrer - sogar von Todesfällen wird berichtet.
+Die aktuelle Situation in Frankreich ist für mich sehr beunruhigend. Den Durchblick besitze ich nicht und ich will hier auch nicht alle Details und die Gewalttaten aufzählen. Dazu muss ich mich in den nächsten Tagen genauer in die verschiedenen Medien vertiefen und nachforschen, was hier passiert. Verwandte ud Bekannte leben in Frankreich. Sie berichten mir schon seit Jahren von katastrophalen Zuständen z.B. an den Schulen: baufällige Gebäude, keine Heizung, keine Klimaanlage, fehlende Lehrer, Gewalt unter den Schülern, Gewalt gegen Lehrer - sogar von Todesfällen wird berichtet.
 
-Die Wut über die aktuellen Zustände steigt.
+Die Wut über die aktuellen Zustände steigt. Die Franzosen sehen sich mit der Gewalt und dem Chaos allein gelassen, die Politiker leben komplett abgehoben in ihrer eigenen Blase. Präsident Macron besucht mit seiner Frau während der gewaltsamen Proteste ein Celine Dion Konzert. Der Innenminister ist überfordert. Die Polizei wird entweder von den Jugendlichen durch die Straßen gejagt und flieht. Oder sie geht manchmal ziemlich brutal gegen die Jugendlichen vor.
+
+Wer steuert das alles? Es scheint, als würden spezielle Bilder gesucht, gewollt, ... um eine politische Wende herbeizuführen - ich tippe, es soll weiter nach links gehen. Und Marine Le Pen soll verhindert werden. Da nimmt man verletzte Polizisten und Zivilsten, Chaos, Verwüstung, zerstörte Autos, Geschäfte, ... in Kauf.
 
 
 ## Gewalt {#gewalt}
+
+Leider mischen sich unter die Demonstranten viele, viele Jugendliche, die von dem Chaos profitieren und plündern reihenwiese Geschäfte. Besonders schlimm wird es, wenn z.B. Apotheken ausgraubt werden. Denn hier sind Menschenleben in Gefahr, Patienten benötigen lebenswichtige Medikamente, diese kosten manchmal ein Vermögen. Handyshops, etc. werden zerstört; die Händler stehen vor dem Ruin und wissen nicht mehr, wie sie ihre Familie ernähren können. Da stellen sich viele Fragen, wie: "Wie kann man gegen Ungerechtigkeit protestieren, indem man selbst ungerecht handelt?"
+
+Was hilft es, gegen die katastrophalen Zustände in den Schulen zu protestieren, indem man genau diese Schule anzündet, Schuleigentum zerstört und Lehrer verletzt, sie mit Benzin überschüttet? Und dann ist man als Schüler entsetzt, dass Lehrer lieber Zuhause bleiben als in die Schule zu gehen? Weil sich Lehrer liebend gerne verbügeln und mit Benzin überschütten lassen?
+
+Die Linksextremen nutzen dieses Chaos politisch und unterstützen es; Bürgermeister stellen sich schützend vor Jugendliche, obwohl diese gerade Gewalttaten verübt haben.
