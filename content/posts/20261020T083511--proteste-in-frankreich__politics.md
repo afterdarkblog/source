@@ -3,7 +3,7 @@ title = "Proteste in Frankreich"
 author = ["Matthias Fuchs"]
 description = "Gewalt ist keine Lösung."
 date = 2026-10-20T08:35:00+02:00
-lastmod = 2026-10-21T11:26:23+02:00
+lastmod = 2026-10-21T11:36:32+02:00
 tags = ["politics"]
 categories = ["Politics"]
 draft = false
@@ -28,3 +28,8 @@ Leider mischen sich unter die Demonstranten viele, viele Jugendliche, die von de
 Was hilft es, gegen die katastrophalen Zustände in den Schulen zu protestieren, indem man genau diese Schule anzündet, Schuleigentum zerstört und Lehrer verletzt, sie mit Benzin überschüttet? Und dann ist man als Schüler entsetzt, dass Lehrer lieber Zuhause bleiben als in die Schule zu gehen? Weil sich Lehrer liebend gerne verbügeln und mit Benzin überschütten lassen?
 
 Die Linksextremen nutzen dieses Chaos politisch und unterstützen es; Bürgermeister stellen sich schützend vor Jugendliche, obwohl diese gerade Gewalttaten verübt haben.
+
+
+## Wie immer gute Gedanken von Prot {#wie-immer-gute-gedanken-von-prot}
+
+<https://protesilaos.com/politics/2026-10-20-comment-violence-protest/>
