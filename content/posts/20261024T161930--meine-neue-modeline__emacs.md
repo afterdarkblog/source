@@ -3,7 +3,7 @@ title = "Meine neue Modeline"
 author = ["Matthias Fuchs"]
 description = "Simple is beautiful."
 date = 2026-10-24T16:19:00+02:00
-lastmod = 2026-10-24T16:31:41+02:00
+lastmod = 2026-10-24T16:40:48+02:00
 tags = ["emacs"]
 categories = ["Emacs"]
 draft = false
@@ -152,3 +152,14 @@ Prots Code ist wie ein Schweizer Taschenmesser: schwer, vollgepackt und für jed
 (setq-default header-line-format
               '("%f"))
 ```
+
+
+## Beispiel Bilder {#beispiel-bilder}
+
+{{< figure src="/images/modeline1.png" alt="wunderschön" title="Blick auf Donau - Donaucity" class="border-2" width="100%" height="100%" >}}
+
+{{< figure src="/images/modeline2.png" alt="wunderschön" title="Blick auf Donau - Donaucity" class="border-2" width="100%" height="100%" >}}
+
+{{< figure src="/images/modeline3.png" alt="wunderschön" title="Blick auf Donau - Donaucity" class="border-2" width="100%" height="100%" >}}
+
+{{< figure src="/images/modeline4.png" alt="wunderschön" title="Blick auf Donau - Donaucity" class="border-2" width="100%" height="100%" >}}
