@@ -3,7 +3,7 @@ title = "Meine neue Modeline"
 author = ["Matthias Fuchs"]
 description = "Simple is beautiful."
 date = 2026-10-24T16:19:00+02:00
-lastmod = 2026-10-24T16:40:48+02:00
+lastmod = 2026-10-24T19:15:19+02:00
 tags = ["emacs"]
 categories = ["Emacs"]
 draft = false
@@ -156,10 +156,32 @@ Prots Code ist wie ein Schweizer Taschenmesser: schwer, vollgepackt und für jed
 
 ## Beispiel Bilder {#beispiel-bilder}
 
-{{< figure src="/images/modeline1.png" alt="wunderschön" title="Blick auf Donau - Donaucity" class="border-2" width="100%" height="100%" >}}
+Ich habe es geschafft, Bilder ab jetzt "clickable" zu machen; das bedeutet, man kann mit der Maus draufklicken und sie werden in voller Größe dargestellt, in einem Popup. Für `org-mode` ändert sich dadurch Folgendes:
 
-{{< figure src="/images/modeline2.png" alt="wunderschön" title="Blick auf Donau - Donaucity" class="border-2" width="100%" height="100%" >}}
+```org
+#+ATTR_HTML: :class border-2 :alt wunderschön :title Blick auf Donau - Donaucity
+[[/images/Donau1.jpg]]
+```
 
-{{< figure src="/images/modeline3.png" alt="wunderschön" title="Blick auf Donau - Donaucity" class="border-2" width="100%" height="100%" >}}
+So binde ich in Zukunft Bilder in die `org`-Datei ein. Wenn ich ein Bild sowohl in der Breite als auch in der Höhe auf 100% zwinge, riskieren ich, dass das Bild im Browser verzerrt (gestaucht oder in die Länge gezogen) wird, falls das Seitenverhältnis des Bildes nicht exakt mit dem des Bildschirms übereinstimmt.
 
-{{< figure src="/images/modeline4.png" alt="wunderschön" title="Blick auf Donau - Donaucity" class="border-2" width="100%" height="100%" >}}
+-   Breite (:width 100%): Ist super! Das sorgt dafür, dass das Bild auf Smartphones und großen Monitoren immer die volle Breite des Textbereichs ausnutzt.
+-   Höhe (:height 100%): Sollte der Browser automatisch berechnen, um das Seitenverhältnis des Fotos perfekt zu schützen.
+
+Damit ich in Org-mode in Zukunft sogar das :width 100% bei fast jedem Bild weglassen kann (was mir viel Tipparbeit spart), kann ich eine einzige Zeile in mein globale CSS-Datei (z. B. eine `custom.css` oder die soeben erstellte `glightbox.min.css`) einfügen:
+
+```css
+figure img {
+    width: 100%;
+    height: auto; /* Berechnet die Höhe immer automatisch und verhindert Verzerrungen */
+    display: block;
+}
+```
+
+{{< figure src="/images/modeline1.png" alt="wunderschön" title="Blick auf Donau - Donaucity" class="border-2" >}}
+
+{{< figure src="/images/modeline2.png" alt="wunderschön" title="Blick auf Donau - Donaucity" class="border-2" >}}
+
+{{< figure src="/images/modeline3.png" alt="wunderschön" title="Blick auf Donau - Donaucity" class="border-2" >}}
+
+{{< figure src="/images/modeline4.png" alt="wunderschön" title="Blick auf Donau - Donaucity" class="border-2" >}}

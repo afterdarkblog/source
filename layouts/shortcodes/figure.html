@@ -1,0 +1,18 @@
+<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+  {{ if .Get "src" }}
+    <!-- Glightbox-Klasse für das Pop-up hinzugefügt -->
+    <a href="{{ .Get "src" | relURL }}" class="glightbox" data-glightbox="title: {{ .Get "title" }}; description: {{ .Get "alt" }}">
+      <img src="{{ .Get "src" | relURL }}"
+           alt="{{ .Get "alt" }}"
+           {{ with .Get "width" }}width="{{ . }}"{{ end }}
+           {{ with .Get "height" }}height="{{ . }}"{{ end }}
+           style="cursor: zoom-in;" />
+    </a>
+  {{ end }}
+  {{ if or (.Get "title") (.Get "caption") }}
+    <figcaption>
+      {{ with .Get "title" }}<h4>{{ . }}</h4>{{ end }}
+      {{ with .Get "caption" }}<p>{{ . | markdownify }}</p>{{ end }}
+    </figcaption>
+  {{ end }}
+</figure>

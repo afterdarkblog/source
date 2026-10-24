@@ -52,3 +52,21 @@
     themeStyle.innerHTML = '#moon, #sun { cursor: pointer !important; pointer-events: auto !important; }';
     document.head.appendChild(themeStyle);
 </script>
+
+<!-- 1. Das lokale CSS für das Pop-up laden -->
+<link rel="stylesheet" href="{{ "css/glightbox.min.css" | relURL }}" />
+
+<!-- 2. Das lokale JavaScript für das Pop-up laden -->
+<script src="{{ "js/glightbox.min.js" | relURL }}"></script>
+
+<!-- 3. Das Pop-up-Skript für alle Bilder aktivieren -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const lightbox = GLightbox({
+      selector: '.glightbox',
+      touchNavigation: true,
+      loop: true
+    });
+  });
+</script>
+
