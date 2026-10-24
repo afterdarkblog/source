@@ -3,7 +3,7 @@ title = "Meine neue Modeline"
 author = ["Matthias Fuchs"]
 description = "Simple is beautiful."
 date = 2026-10-24T16:19:00+02:00
-lastmod = 2026-10-24T19:15:19+02:00
+lastmod = 2026-10-24T22:40:38+02:00
 tags = ["emacs"]
 categories = ["Emacs"]
 draft = false
@@ -185,3 +185,14 @@ figure img {
 {{< figure src="/images/modeline3.png" alt="wunderschön" title="Blick auf Donau - Donaucity" class="border-2" >}}
 
 {{< figure src="/images/modeline4.png" alt="wunderschön" title="Blick auf Donau - Donaucity" class="border-2" >}}
+
+
+## Weitere Bilder {#weitere-bilder}
+
+Diesmal habe ich die Einstellungen für die Größe von Fotos am Handy verändert.
+
+{{< figure src="/images/Blume1.jpg" alt="wunderschön" title="Blick auf Donau - Donaucity" class="border-2" >}}
+
+{{< figure src="/images/Blume2.jpg" alt="wunderschön" title="Blick auf Donau - Donaucity" class="border-2" >}}
+
+{{< figure src="/images/Blume3.jpg" alt="wunderschön" title="Blick auf Donau - Donaucity" class="border-2" >}}
