@@ -3,7 +3,7 @@ title = "Meine neue Modeline"
 author = ["Matthias Fuchs"]
 description = "Simple is beautiful."
 date = 2026-10-24T16:19:00+02:00
-lastmod = 2026-10-24T22:40:38+02:00
+lastmod = 2026-10-24T22:52:22+02:00
 tags = ["emacs"]
 categories = ["Emacs"]
 draft = false
@@ -178,21 +178,30 @@ figure img {
 }
 ```
 
-{{< figure src="/images/modeline1.png" alt="wunderschön" title="Blick auf Donau - Donaucity" class="border-2" >}}
+{{< figure src="/images/modeline1.png" alt="wunderschön" title="Gesamte Modeline" class="border-2" >}}
 
-{{< figure src="/images/modeline2.png" alt="wunderschön" title="Blick auf Donau - Donaucity" class="border-2" >}}
+{{< figure src="/images/modeline2.png" alt="wunderschön" title="Details linke Seite - farbige Icons" class="border-2" >}}
 
-{{< figure src="/images/modeline3.png" alt="wunderschön" title="Blick auf Donau - Donaucity" class="border-2" >}}
+{{< figure src="/images/modeline3.png" alt="wunderschön" title="Details links - mu4e" class="border-2" >}}
 
-{{< figure src="/images/modeline4.png" alt="wunderschön" title="Blick auf Donau - Donaucity" class="border-2" >}}
+{{< figure src="/images/modeline4.png" alt="wunderschön" title="Details rechts - mode-line-misc-info mu4e" class="border-2" >}}
 
 
 ## Weitere Bilder {#weitere-bilder}
 
-Diesmal habe ich die Einstellungen für die Größe von Fotos am Handy verändert.
+Diesmal habe ich die Einstellungen für die Größe von Fotos am Handy verändert: Seitenverhältnis 4:3, Leica Authentic.
 
-{{< figure src="/images/Blume1.jpg" alt="wunderschön" title="Blick auf Donau - Donaucity" class="border-2" >}}
+Volle Bildqualität ohne Pixelverlust
+: Wenn ich am Handy auf "Fullscreen" oder "16:9" schalte, macht die Kamera nichts anderes, als das native 4:3-Bild oben und unten digital abzuschneiden (ein sogenannter "Crop"). Ich werfe im Fullscreen-Modus also wertvolle Megapixel und Bildinformationen einfach weg.
 
-{{< figure src="/images/Blume2.jpg" alt="wunderschön" title="Blick auf Donau - Donaucity" class="border-2" >}}
 
-{{< figure src="/images/Blume3.jpg" alt="wunderschön" title="Blick auf Donau - Donaucity" class="border-2" >}}
+Harmonische Proportionen
+: Im Hochformat ist 4:3 viel kompakter. Das Foto wirkt im Blogbeitrag edel und übersichtlich, statt wie ein endlos langes, schmales "Handtuch".
+
+Da ich die großartige Leica-Optik meines Xiaomi 15 T Pro nutze: in der Kamera-App kann ich zwischen Leica Authentic (sehr natürliche, klassische Farben) und Leica Vibrant (etwas kräftigere, modernere Farben) wählen. Für Reise- und Blogfotografie liefert Leica Authentic oft diesen wunderschönen, zeitlosen Look, der perfekt zu einem strukturierten Blog passt.
+
+{{< figure src="/images/Blume1.jpg" alt="wunderschön" title="Belangonie (4:3, Leica Authentic)" class="border-2" >}}
+
+{{< figure src="/images/Blume2.jpg" alt="wunderschön" title="Belagonie - Supermakro" class="border-2" >}}
+
+{{< figure src="/images/Blume3.jpg" alt="wunderschön" title="Rosmarin" class="border-2" >}}
