@@ -33,8 +33,8 @@ fi
 echo "Pushe fertige Website in das Live-Repository..."
 cd public
 
-# Zwingt Git in diesem Ordner, NUR den Blog-Schlüssel zu nutzen
-git config core.sshCommand "ssh -i ~/.ssh/id_github_blog -o IdentitiesOnly=yes"
+# Ersetzen Sie die alte git config Zeile durch diese Zeile:
+export GIT_SSH_COMMAND="ssh -i ~/.ssh/id_github_blog -o IdentitiesOnly=yes -F /dev/null"
 
 # Erzwingt, dass die fertigen HTML-Dateien an das Live-Repository gehen
 git remote set-url origin git@github.com:afterdarkblog/afterdarkblog.github.io.git
@@ -52,8 +52,8 @@ sleep 3
 # 5. IM HAUPTVERZEICHNIS: Den Quellcode als Backup in das source-Repository sichern
 echo "Sichere Quellcode im source-Repository..."
 
-# Zwingt Git im Hauptordner, NUR den Blog-Schlüssel zu nutzen
-git config core.sshCommand "ssh -i ~/.ssh/id_github_blog -o IdentitiesOnly=yes"
+# Ersetzen Sie auch hier die alte git config Zeile durch diese Zeile:
+export GIT_SSH_COMMAND="ssh -i ~/.ssh/id_github_blog -o IdentitiesOnly=yes -F /dev/null"
 
 # Erzwingt, dass deine Markdown-Quelltexte im Backup-Repository landen
 git remote set-url origin git@github.com:afterdarkblog/source.git
