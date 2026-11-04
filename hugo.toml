@@ -81,12 +81,21 @@ staticDir = ['static']
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.smartypants]
+        enable = true
+        [markup.goldmark.extensions.smartypants.quotes]
+          leftDouble = "„"
+          rightDouble = "“"
+          leftSingle = "‚"
+          rightSingle = "‘"
 
   [markup.highlight]
     codeFences = true        # Aktiviert Highlighting für Blöcke mit ```
     lineNos = false          # Schaltet globale Zeilennummern ein (true) oder aus (false)
     noClasses = false        # WICHTIG für PaperModX: CSS-Klassen statt Inline-Styles nutzen
     style = "monokai"        # Das Chroma-Fallback-Design (wird oft durch Theme-CSS überschrieben)
+
 
 # Social Icons (Umgestellt auf PaperModX Syntax)
 [[params.socialIcons]]
