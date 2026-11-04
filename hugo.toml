@@ -81,14 +81,14 @@ staticDir = ['static']
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
     [markup.goldmark.extensions]
-      [markup.goldmark.extensions.smartypants]
-        enable = true
-        [markup.goldmark.extensions.smartypants.quotes]
-          leftDouble = "„"
-          rightDouble = "“"
-          leftSingle = "‚"
-          rightSingle = "‘"
+      [markup.goldmark.extensions.typographer]
+        disable = false
+        leftDoubleQuote = "„"
+        rightDoubleQuote = "“"
+        leftSingleQuote = "‚"
+        rightSingleQuote = "‘"
 
   [markup.highlight]
     codeFences = true        # Aktiviert Highlighting für Blöcke mit ```

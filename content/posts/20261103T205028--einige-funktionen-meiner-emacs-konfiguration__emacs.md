@@ -1,9 +1,9 @@
 +++
 title = "Einige Funktionen meiner Emacs Konfiguration"
 author = ["Matthias Fuchs"]
-description = "..."
+description = "Emacs rocks"
 date = 2026-11-03T20:50:00+01:00
-lastmod = 2026-11-03T21:45:27+01:00
+lastmod = 2026-11-04T10:28:21+01:00
 tags = ["emacs"]
 categories = ["Emacs"]
 draft = false
