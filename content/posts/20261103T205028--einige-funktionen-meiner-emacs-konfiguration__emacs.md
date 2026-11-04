@@ -3,7 +3,7 @@ title = "Einige Funktionen meiner Emacs Konfiguration"
 author = ["Matthias Fuchs"]
 description = "Emacs rocks"
 date = 2026-11-03T20:50:00+01:00
-lastmod = 2026-11-04T17:35:02+01:00
+lastmod = 2026-11-04T17:41:58+01:00
 tags = ["emacs"]
 categories = ["Emacs"]
 draft = false
@@ -45,7 +45,7 @@ Ich höre sehr gerne den Podcast "Bible in a Year" mit Fr. Mike Schmitz; mit die
 ```
 
 
-## `elfeed.eö` play YouTube video via `mpv.el` {#elfeed-dot-eö-play-youtube-video-via-mpv-dot-el}
+## `elfeed.el` play YouTube video via `mpv.el` {#elfeed-dot-el-play-youtube-video-via-mpv-dot-el}
 
 Ist wohl selbsterklärend, oder?
 
