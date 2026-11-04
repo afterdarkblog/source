@@ -3,7 +3,7 @@ title = "Einige Funktionen meiner Emacs Konfiguration"
 author = ["Matthias Fuchs"]
 description = "Emacs rocks"
 date = 2026-11-03T20:50:00+01:00
-lastmod = 2026-11-04T10:38:40+01:00
+lastmod = 2026-11-04T17:35:02+01:00
 tags = ["emacs"]
 categories = ["Emacs"]
 draft = false
@@ -90,7 +90,7 @@ See `elfeed-play-with-mpv'."
 
 ## `elfeed.el` display comments / post from reddit {#elfeed-dot-el-display-comments-post-from-reddit}
 
-Ich habe die rss-feeds von ein paar subreddits abonniert und kann dann mit der Tastenkombination 'c' die Kommentare zu einem reddit-Post anzeigen lassen und mit 'q' wieder schließen.
+Ich habe die rss-feeds von einigen subreddits abonniert und kann mit der Tastenkombination 'c' die Kommentare zu einem reddit-Post anzeigen lassen und mit 'q' wieder schließen.
 
 ```emacs-lisp
 ;;; To route only Reddit traffic through your SOCKS5 proxy while fetching all other feeds directly, you can use Emacs's advice-add system. This allows you to dynamically turn on the proxy whenever Elfeed requests a URL containing "reddit.com".
@@ -244,12 +244,12 @@ For how the context is retrieved, see `my-denote-region-get-source-reference'."
 
 ## `my-modeline` (link) {#my-modeline--link}
 
-In meinem Post [über meine neue Modeline]({{< relref "20261024T161930--meine-neue-modeline__emacs" >}}) zeige auf, was sich geändert hat.
+In meinem Post [über meine neue Modeline]({{< relref "20261024T161930--meine-neue-modeline__emacs" >}}) zeige ich genauer auf, was sich geändert hat.
 
 
 ## `denote-biblio.el` {#denote-biblio-dot-el}
 
-Nicht meine Funktion - ein `org-capture-template`: ich gebe den kompletten bibkey ein und dieses Paket erstellt eine `denote`-Datei, mit dem bibkey als Inhalt; Möglichkeit, Notizen anzulegen. Ausgehend von diesen Dateien kann ich dann eine `bib`-Datei erstellen. Autor ist Mohamed Suliman; leider finde ich den ursprünglichen Artikel nicht mehr.
+Nicht meine eigene Funktion - sie ist ein `org-capture-template`: ich gebe den kompletten bibkey ein und dieses Paket erstellt eine `denote`-Datei, mit dem bibkey als Inhalt; es besteht die Möglichkeit, Notizen anzulegen. Ausgehend von diesen Dateien kann ich dann eine `bib`-Datei erstellen. Autor ist der Funktion ist Mohamed Suliman; leider finde ich den ursprünglichen Artikel nicht mehr, in dem er sie vorgestellt hat.
 
 ```emacs-lisp
 ;;; denote-biblio.el --- BibTex entries with denote  -*- lexical-binding: t; -*-
@@ -440,7 +440,7 @@ Ich habe dieses Paket immer wieder gegen eine neue Version von `denote.el` getes
 
 ## `biblio.el` add bibkey to `Literatur.bib`-file {#biblio-dot-el-add-bibkey-to-literatur-dot-bib-file}
 
-Im Suchbuffer von `biblio.el` kann ich durch eine Tastenkombination den Bibkey eines Suchergebnisses auslesen und in die `Literatur.el` schreiben.
+Im Suchbuffer von `biblio.el` kann ich durch eine Tastenkombination den Bibkey eines Suchergebnisses auslesen und in die `Literatur.bib`-Datei schreiben.
 
 ```emacs-lisp
 (defun my/biblio-append-to-global-file ()
@@ -471,7 +471,7 @@ Im Suchbuffer von `biblio.el` kann ich durch eine Tastenkombination den Bibkey e
 
 ## `my-citar-add-and-note.el` {#my-citar-add-and-note-dot-el}
 
-Bibkey data händisch eingeben (Autor, Titel, ...) - bibkey wird in `Literatur.bib`-Datei eingetragen und gleichzeitig eine `citar-denote`-datei erstellt.
+Die Bibkey Daten händisch eingeben (Autor, Titel, ...) - bibkey wird in `Literatur.bib`-Datei eingetragen und gleichzeitig eine `citar-denote`-Datei erstellt.
 
 ```emacs-lisp
 (defun my-citar-add-and-note ()
@@ -546,6 +546,6 @@ Unterstützt Monographien (@book) sowie Sammelwerke und herausgegebene Werke."
 
 ## Fazit {#fazit}
 
-Ich muss zugeben, dass ich (noch) zu wenig von Emacs Lisp verstehe; daher sind einige der Codeblocks mit Hilfe von AI entstanden. So ziemlich alle haben nicht auf Anhieb funktioniert; einmal ist mir fast die gesamte `init.el` kaputt gegangen und ich konnte mit Müh und Not im letzten Augenblick retten.
+Ich muss zugeben, dass ich (noch) zu wenig von Emacs Lisp verstehe; daher sind einige der Codeblocks mit Hilfe von AI entstanden. So ziemlich alle haben nicht auf Anhieb funktioniert; einmal ist mir fast die gesamte `init.el` kaputt gegangen und ich konnte sie mit Müh und Not im letzten Augenblick retten.
 
 Ich habe aber trotz der Hilfe durch AI einiges von Emacs Lisp gelernt und verstanden; zumindest reifte in mir der feste Entschluss, Emacs und sein eingebautes Tutorial zu konsultieren und durchzuarbeiten. Es ist noch immer die beste Art, Emacs Lisp zu lernen. Ich habe gehört, man profitiert und lernt von Emacs Lisp mehr als von jeder anderen Computersprache.
