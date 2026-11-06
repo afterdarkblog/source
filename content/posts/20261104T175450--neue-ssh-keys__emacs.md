@@ -3,7 +3,7 @@ title = "Neue ssh keys"
 author = ["Matthias Fuchs"]
 description = "That was tricky."
 date = 2026-11-04T17:54:00+01:00
-lastmod = 2026-11-05T11:32:40+01:00
+lastmod = 2026-11-06T09:34:37+01:00
 tags = ["emacs"]
 categories = ["Emacs"]
 draft = false
@@ -16,6 +16,30 @@ draft = false
 
 Nachdem ich es geschafft habe, dass `hugo` die Anführungszeichen korrekt darstellt, gab es Probleme mit den `ssh-keys`.
 
+Die relevanten Einstellungen in der `hugo.toml`
+
+```toml
+locale = 'de'
+defaultContentLanguage = 'de'
+
+[markup]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.typographer]
+        disable = false
+        leftDoubleQuote = "„"
+        rightDoubleQuote = "“"
+        leftSingleQuote = "‚"
+        rightSingleQuote = "‘"
+```
+
+In den `org`-Dateien habe ich folgende Optionen ergänzt:
+
+```org-mode
+#+language: de
+#+options: smart-quotes:t
+#+HUGO_LOCALE: de
+```
+
 
 ## Dann Ruhe {#dann-ruhe}
 
@@ -24,7 +48,7 @@ Nach einigen erfolglosen Versuchen habe ich neue `ssh-keys` erstellt und das dep
 `magit` kann dann ungestört auf diese `config`-Datei zugreifen und den dort konfigurierten `ssh-key` für das `org`-Repo.
 
 
-## Das Skript {#das-skript}
+## Das Blog Skript {#das-blog-skript}
 
 ```bash
 #!/bin/bash
